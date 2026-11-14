@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="js-qa" class="container">
+        <h1 id="js-title">Answer 10 Japanese Language Questions!</h1>
+        <button id="js-start">Start</button>
+        <main id="js-main" class="hidden">
+            <div class="question">
+                <p id="js-questionNumber" class="question_number"></p>
+                <div class="question_details">
+                    <p id="js-question"></p>
+                    <p id="js-kana" ></p>
+                    <p id="js-romaji"></p>
+                </div>
+            </div>
+            <div id="js-answer" class="answer">
+                <ol id="js-options" class="options" type="A"></ol>
+            </div>
+            <p id="js-explanation" class="explanation"></p>
+            <p id="js-result" class="result"></p>
+            <button id="js-next" class="hidden">Next Question</button>
+            <button id="js-retry" class="hidden">Retry</button>
+        </main>
+        <div id="js-correct" class="correct_popup hidden">CORRECT!!</div>
+        <div id="js-wrong" class="wrong_popup hidden">WRONG...</div>
+    </div>    
+    <script src="main.js" type="module"></script>
+</body>
+</html>
