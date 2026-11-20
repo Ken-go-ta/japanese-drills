@@ -20,7 +20,7 @@
         <h1 id="js-title">Answer 10 Japanese Language Questions!</h1>
         <button id="js-start">Start</button>
         <main id="js-main" class="hidden">
-            <div class="question">
+            <div id="js-questionWrapper" class="question_wrapper">
                 <p id="js-questionNumber" class="question_number"></p>
                 <div class="question_details">
                     <p id="js-question"></p>
@@ -34,7 +34,10 @@
             <p id="js-explanation" class="explanation"></p>
             <p id="js-result" class="result"></p>
             <button id="js-next" class="hidden">Next Question</button>
-            <button id="js-retry" class="hidden">Retry</button>
+            <div class="buttons">
+                <button id="js-retry" class="hidden">Try other 10 questions</button>
+                <button id="js-retake" class="hidden">Try same questions</button>
+            </div>
         </main>
         <div id="js-correct" class="correct_popup hidden">CORRECT!!</div>
         <div id="js-wrong" class="wrong_popup hidden">WRONG...</div>

@@ -3,7 +3,6 @@ import { questions } from './questions.js';
 let selectedQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
-const qAndA = document.querySelector('#js-qa');
 const startButton = document.querySelector('#js-start');
 const question = document.querySelector('#js-question');
 const kana = document.querySelector('#js-kana');
@@ -13,11 +12,13 @@ const nextButton = document.querySelector('#js-next');
 const explanation = document.querySelector('#js-explanation');
 const questionNumber = document.querySelector('#js-questionNumber');
 const retryButton = document.querySelector('#js-retry');
+const retakeButton = document.querySelector('#js-retake');
 const resultText = document.querySelector('#js-result');
 const title = document.querySelector('#js-title');
 const main = document.querySelector('#js-main');
 const correct = document.querySelector('#js-correct');
 const wrong = document.querySelector('#js-wrong');
+const questionWrapper = document.querySelector('#js-questionWrapper');
 
 function shuffleArray(array) {
     const shuffled = [...array];
@@ -28,6 +29,8 @@ function shuffleArray(array) {
     return shuffled;
 }
   
+
+
 function getRandomQuestions() {
     return shuffleArray(questions).slice(0, 10);
 }
@@ -42,6 +45,15 @@ function showQuestion() {
     } else {
         nextButton.textContent = 'Next Question';
     }
+
+    questionNumber.classList.remove('hidden');
+    question.classList.remove('hidden');
+    kana.classList.remove('hidden');
+    romaji.classList.remove('hidden');
+    explanation.classList.remove('hidden');
+    questionWrapper.classList.remove('hidden');
+    retakeButton.classList.add('hidden');
+
     questionNumber.textContent = `Question ${currentQuestionIndex+1}`;
     question.textContent = selectedQuestions[currentQuestionIndex].question;
     kana.textContent = selectedQuestions[currentQuestionIndex].kana;
@@ -69,6 +81,9 @@ function showQuestion() {
 
             if (option === correctAnswer) {
                 correct.classList.remove('hidden');
+                correct.addEventListener('click', () => {
+                    correct.classList.add('hidden');
+                });
                 setTimeout(() => {
                     correct.classList.add('hidden');
                 }, 1500);
@@ -82,6 +97,9 @@ function showQuestion() {
             } else {
                 li.classList.add('wrong');
                 wrong.classList.remove('hidden');
+                wrong.addEventListener('click', () => {
+                    wrong.classList.add('hidden');
+                });
                 setTimeout(() => {
                     wrong.classList.add('hidden');
                 }, 1500);
@@ -102,8 +120,7 @@ function showQuestion() {
     });
 }
 
-function startQuiz() {
-    selectedQuestions = getRandomQuestions();
+function initializeQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     resultText.textContent = '';
@@ -112,6 +129,17 @@ function startQuiz() {
     title.classList.add('hidden');
     nextButton.classList.remove('hidden');
     main.classList.remove('hidden');
+}
+
+function startQuiz() {
+    selectedQuestions = getRandomQuestions();
+    initializeQuiz();
+    showQuestion();
+}
+
+function retakeQuiz() {
+    initializeQuiz();
+    questionWrapper.classList.add('hidden');
     showQuestion();
 }
 
@@ -126,16 +154,19 @@ nextButton.addEventListener('click', () => {
 });
 
 function showResult() {
-    questionNumber.textContent = '';
-    question.textContent = '';
-    kana.textContent = '';
-    romaji.textContent = '';
+    questionNumber.classList.add('hidden');
+    question.classList.add('hidden');
+    kana.classList.add('hidden');
+    romaji.classList.add('hidden');
     options.replaceChildren();
-    explanation.textContent = '';
+    explanation.classList.add('hidden');
     nextButton.classList.add('hidden');
     resultText.textContent = `Your total score is ${score} out of 10`;
     retryButton.classList.remove('hidden');
+    questionWrapper.classList.add('hidden');
+    retakeButton.classList.remove('hidden');
 }
 
 startButton.addEventListener('click', startQuiz);
 retryButton.addEventListener('click', startQuiz);
+retakeButton.addEventListener('click', retakeQuiz);

@@ -75,7 +75,7 @@ main {
     align-items: center;
 }
 
-.question {
+.question_wrapper {
     text-align: center;
     margin-bottom: 30px;
 }
@@ -124,8 +124,16 @@ main {
 }
 
 #js-correct.hidden,
-#js-wrong.hidden {
+#js-wrong.hidden,
+#js-retake.hidden,
+#js-questionNumber.hidden,
+#js-question.hidden,
+#js-kana.hidden,
+#js-romaji.hidden,
+#js-explanation.hidden,
+#js-questionWrapper.hidden {
     display: none;
+    margin-bottom: 0;
 }
 
 .correct_popup {
@@ -154,4 +162,10 @@ main {
     transition: all .2s;
     z-index: 1000;
     text-shadow: 0px 4px 7px rgb(0 0 0 / 15%);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }

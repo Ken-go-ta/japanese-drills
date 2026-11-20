@@ -318,14 +318,6 @@ export const questions = [
         explanation: 'Use "から" for the starting point of a time period. 9時から3時まで means "from 9 to 3."',
     },
     {
-        question: 'わたしはコーヒー（ ）飲みません。',
-        kana: 'わたしはこーひー（ ）のみません。',
-        romaji: 'Watashi wa koohii ( ) nomimasen.',
-        options: ['は/wa', 'も/mo', 'を/o', 'で/de'],
-        correct: 'を/o',
-        explanation: 'Use "を" to mark the direct object of a verb. コーヒーを飲みません means "I do not drink coffee."',
-    },
-    {
         question: '日曜日は何（ ）しますか。',
         kana: 'にちようびはなに（ ）しますか。',
         romaji: 'Nichiyoubi wa nani ( ) shimasu ka.',
@@ -675,19 +667,6 @@ export const questions = [
         explanation: 'Use "が" to identify the person being asked about. だれが一番 means "who is the most..."',
     },
     {
-        question: 'わたしは水（ ）飲みません。',
-        kana: 'わたしはみず（ ）のみません。',
-        romaji: 'Watashi wa mizu ( ) nomimasen.',
-        options: [
-            'だけ/dake',
-            'しか/shika',
-            'でも/demo',
-            'まで/made'
-        ],
-        correct: 'だけ/dake',
-        explanation: '"だけ" means "only." 水だけ飲みません means "I drink only water" is not the intended meaning here, so this sentence should be read as "I do not drink only water."',
-    },
-    {
         question: '日曜日（ ）休みます。',
         kana: 'にちようび（ ）やすみます。',
         romaji: 'Nichiyoubi ( ) yasumimasu.',
@@ -978,12 +957,12 @@ export const questions = [
         kana: 'まいあさ、おんがくを（ ）ながらべんきょうします。',
         romaji: 'Maiasa, ongaku o ( ) nagara benkyou shimasu.',
         options: [
-            '聞きます/ききます/kikimasu',
+            '聞き/きき/kiki',
             '聞いて/きいて/kiite',
             '聞く/きく/kiku',
             '聞いた/きいた/kiita'
         ],
-        correct: '聞きます/ききます/kikimasu',
+        correct: '聞き/きき/kiki',
         explanation: 'The expression "ながら" connects two simultaneous actions. The verb before it uses the masu-stem: 聞きながら means "while listening."',
     },
     {
