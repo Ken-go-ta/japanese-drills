@@ -415,6 +415,25 @@ button#js-next {
 }
 
 
+/* ========================================
+   13. Loading
+======================================== */
+
+.loading_message {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ee0d60;
+    text-align: center;
+    line-height: 2rem;
+}
+
+
 @media (max-width : 1440px) {
     .qa_grid {
         grid-template-columns: 1fr;
@@ -532,5 +551,11 @@ button#js-next {
 
     .current_score {
         line-height: 1.3rem;
+    }
+
+    .correct_popup, 
+    .wrong_popup {
+        position: fixed;
+        inset: 0;
     }
 }
