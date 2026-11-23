@@ -47,6 +47,7 @@ const wrongSound = new Audio('./sounds/universfield-error-notification-08-206492
 const pressSound = new Audio('./sounds/freesoundeffects-button-click-289742.mp3');
 const loadingMessage = document.querySelector('#js-loadingMessage');
 
+
 // loadingMessage.classList.add('hidden');
 window.addEventListener('load', () => {
     loadingMessage.animate({
@@ -57,12 +58,20 @@ window.addEventListener('load', () => {
         easing: 'ease-out',
         fill: 'forwards',
     });
+    mainBox.animate({
+        opacity: [0, 1],
+    }, {
+        duration: 800,
+        delay: 3500,
+        easing: 'ease-out',
+        fill: 'forwards',
+    });
 });
 
-mainBox.classList.add('hidden');
-window.setTimeout(() => {
-    mainBox.classList.remove('hidden');
-}, 3500);
+// mainBox.classList.add('hidden');
+// window.setTimeout(() => {
+//     mainBox.classList.remove('hidden');
+// }, 3500);
 
 function playPressSound() {
     if (isMuted) return;
