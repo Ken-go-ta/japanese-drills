@@ -1043,4 +1043,1954 @@ export const n5Questions = [
         correct: 'わかります/wakarimasu',
         explanation: 'わかります means "understand." 少しわかります means "I understand a little."',
     },
+    {
+        question: '毎日、学校（  ）行きます。',
+        kana: 'まいにち、がっこう（  ）いきます。',
+        romaji: 'Mainichi, gakkou (  ) ikimasu.',
+        options: [
+        'へ/e',
+        'を/o',
+        'と/to',
+        'で/de'
+        ],
+        correct: 'へ/e',
+        explanation: '"へ" indicates direction or destination toward a place. Here, "学校へ" means going to school.'
+  },
+  {
+    question: 'わたしは毎朝、パン（  ）食べます。',
+    kana: 'わたしはまいあさ、ぱん（  ）たべます。',
+    romaji: 'Watashi wa maiasa, pan (  ) tabemasu.',
+    options: [
+      'を/o',
+      'に/ni',
+      'へ/e',
+      'と/to'
+    ],
+    correct: 'を/o',
+    explanation: '"を" marks the direct object of a transitive verb like "食べる" (to eat). It shows what is being eaten every morning.'
+  },
+  {
+    question: '図書館（  ）本を借りました。',
+    kana: 'としょかん（  ）ほんをかりました。',
+    romaji: 'Toshokan (  ) hon o karimashita.',
+    options: [
+      'で/de',
+      'に/ni',
+      'へ/e',
+      'と/to'
+    ],
+    correct: 'で/de',
+    explanation: '"で" indicates the location where an action takes place. Borrowing books happens at the library ("図書館で").'
+  },
+  {
+    question: '机の上に猫（  ）います。',
+    kana: 'つくえのうえにねこ（  ）います。',
+    romaji: 'Tsukue no ue ni neko (  ) imasu.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'で/de'
+    ],
+    correct: 'が/ga',
+    explanation: '"が" marks the subject of existence with "いる" for living things. It introduces the cat on top of the desk.'
+  },
+  {
+    question: 'きのうは雨（  ）降りました。',
+    kana: 'きのうはあめ（  ）ふりました。',
+    romaji: 'Kinou wa ame (  ) furimashita.',
+    options: [
+      'が/ga',
+      'を/o',
+      'に/ni',
+      'へ/e'
+    ],
+    correct: 'が/ga',
+    explanation: '"が" marks the subject of "降る" (to fall/precipitate) for weather phenomena like rain.'
+  },
+  {
+    question: '七時（  ）起きます。',
+    kana: 'しちじ（  ）おきます。',
+    romaji: 'Shichiji (  ) okimasu.',
+    options: [
+      'に/ni',
+      'で/de',
+      'を/o',
+      'が/ga'
+    ],
+    correct: 'に/ni',
+    explanation: '"に" attaches to a specific point in time such as a clock time ("七時に" = at seven o\'clock).'
+  },
+  {
+    question: '友達（  ）映画を見ました。',
+    kana: 'ともだち（  ）えいがをみました。',
+    romaji: 'Tomodachi (  ) eiga o mimashita.',
+    options: [
+      'と/to',
+      'に/ni',
+      'へ/e',
+      'を/o'
+    ],
+    correct: 'と/to',
+    explanation: '"と" expresses doing an action together with someone ("友達と" = with a friend).'
+  },
+  {
+    question: '電車（  ）会社へ行きます。',
+    kana: 'でんしゃ（  ）かいしゃへいきます。',
+    romaji: 'Densha (  ) kaisha e ikimasu.',
+    options: [
+      'で/de',
+      'に/ni',
+      'を/o',
+      'が/ga'
+    ],
+    correct: 'で/de',
+    explanation: '"で" indicates the means or vehicle used to travel, here going to the office by train ("電車で").'
+  },
+  {
+    question: '水（  ）飲みたいです。',
+    kana: 'みず（  ）のみたいです。',
+    romaji: 'Mizu (  ) nomitai desu.',
+    options: [
+      'が/ga',
+      'へ/e',
+      'に/ni',
+      'と/to'
+    ],
+    correct: 'が/ga',
+    explanation: 'With desire adjectives like "飲みたい" (want to drink), "が" commonly marks the desired object ("水が飲みたい").'
+  },
+  {
+    question: 'これはわたし（  ）かばんです。',
+    kana: 'これはわたし（  ）かばんです。',
+    romaji: 'Kore wa watashi (  ) kaban desu.',
+    options: [
+      'の/no',
+      'に/ni',
+      'で/de',
+      'が/ga'
+    ],
+    correct: 'の/no',
+    explanation: '"の" connects nouns to show possession or belonging ("わたしの" = my/mine).'
+  },
+  {
+    question: 'りんご（  ）みかんを買いました。',
+    kana: 'りんご（  ）みかんをかいました。',
+    romaji: 'Ringo (  ) mikan o kaimashita.',
+    options: [
+      'と/to',
+      'へ/e',
+      'で/de',
+      'が/ga'
+    ],
+    correct: 'と/to',
+    explanation: '"と" lists nouns exhaustively ("and"), meaning apples and mandarin oranges were bought.'
+  },
+  {
+    question: 'あしたは休み（  ）。',
+    kana: 'あしたはやすみ（  ）。',
+    romaji: 'Ashita wa yasumi (  ).',
+    options: [
+      'です/desu',
+      'ます/masu',
+      'ません/masen',
+      'ました/mashita'
+    ],
+    correct: 'です/desu',
+    explanation: '"です" is the polite copula used after a noun ("休み") in present/future affirmative statements.'
+  },
+  {
+    question: 'この本はおもしろく（  ）。',
+    kana: 'このほんはおもしろく（  ）。',
+    romaji: 'Kono hon wa omoshiroku (  ).',
+    options: [
+      'ないです/nai desu',
+      'だです/da desu',
+      'ます/masu',
+      'だ/da'
+    ],
+    correct: 'ないです/nai desu',
+    explanation: 'To negate an い-adjective ("おもしろい"), change "い" to "く" and add "ないです" ("おもしろくないです" = not interesting).'
+  },
+  {
+    question: 'きょうは暑く（  ）です。',
+    kana: 'きょうはあつく（  ）です。',
+    romaji: 'Kyou wa atsuku (  ) desu.',
+    options: [
+      'ない/nai',
+      'だ/da',
+      'ます/masu',
+      'で/de'
+    ],
+    correct: 'ない/nai',
+    explanation: '"暑くないです" is the negative form of "暑いです" (hot). The "く" form pairs with "ない" to express negation.'
+  },
+  {
+    question: 'きのうは寒かっ（  ）。',
+    kana: 'きのうはさむかっ（  ）。',
+    romaji: 'Kinou wa samukkat (  ).',
+    options: [
+      'たです/ta desu',
+      'ます/masu',
+      'ないです/nai desu',
+      'だ/da'
+    ],
+    correct: 'たです/ta desu',
+    explanation: 'The past affirmative of the い-adjective "寒い" is "寒かった", made polite with "です" ("寒かったです" = was cold).'
+  },
+  {
+    question: 'この部屋は静か（  ）ありません。',
+    kana: 'このへやはしずか（  ）ありません。',
+    romaji: 'Kono heya wa shizuka (  ) arimasen.',
+    options: [
+      'では/de wa',
+      'くは/ku wa',
+      'いは/i wa',
+      'を/o'
+    ],
+    correct: 'では/de wa',
+    explanation: '"静か" is a な-adjective, so its polite negative uses "ではありません" ("静かではありません" = is not quiet).'
+  },
+  {
+    question: 'ここは便利（  ）まちです。',
+    kana: 'ここはべんり（  ）まちです。',
+    romaji: 'Koko wa benri (  ) machi desu.',
+    options: [
+      'な/na',
+      'い/i',
+      'の/no',
+      'が/ga'
+    ],
+    correct: 'な/na',
+    explanation: 'When a な-adjective ("便利") directly modifies a following noun ("まち"), "な" is added ("便利なまち").'
+  },
+  {
+    question: '高い山（  ）登りたいです。',
+    kana: 'たかいやま（  ）のぼりたいです。',
+    romaji: 'Takai yama (  ) noboritai desu.',
+    options: [
+      'に/ni',
+      'を/o',
+      'で/de',
+      'と/to'
+    ],
+    correct: 'に/ni',
+    explanation: '"に" marks the target or place climbed/entered with "登る" ("山に登る" = climb a mountain).'
+  },
+  {
+    question: 'いま、テレビを（  ）います。',
+    kana: 'いま、てれびを（  ）います。',
+    romaji: 'Ima, terebi o (  ) imasu.',
+    options: [
+      '見て/みて/mi te',
+      '見る/みる/miru',
+      '見ない/みない/minai',
+      '見た/みた/mita'
+    ],
+    correct: '見て/みて/mi te',
+    explanation: '"て-form + います" expresses an ongoing action in progress ("見ている" = watching right now).'
+  },
+  {
+    question: '窓を（  ）ください。',
+    kana: 'まどを（  ）ください。',
+    romaji: 'Mado o (  ) kudasai.',
+    options: [
+      '開けて/あけて/akete',
+      '開ける/あける/akeru',
+      '開けない/あけない/akenai',
+      '開けた/あけた/aketa'
+    ],
+    correct: '開けて/あけて/akete',
+    explanation: '"て-form + ください" is a polite request ("開けてください" = please open the window).'
+  },
+  {
+    question: 'ここで写真を撮って（  ）いいですか。',
+    kana: 'ここでしゃしんをとって（  ）いいですか。',
+    romaji: 'Koko de shashin o totte (  ) ii desu ka.',
+    options: [
+      'も/mo',
+      'は/wa',
+      'が/ga',
+      'を/o'
+    ],
+    correct: 'も/mo',
+    explanation: '"て-form + もいいですか" asks for permission ("撮ってもいいですか" = May I take a photo?).'
+  },
+  {
+    question: 'ここでたばこを吸って（  ）いけません。',
+    kana: 'ここでたばこをすって（  ）いけません。',
+    romaji: 'Koko de tabako o sutte (  ) ikemasen.',
+    options: [
+      'は/wa',
+      'も/mo',
+      'に/ni',
+      'で/de'
+    ],
+    correct: 'は/wa',
+    explanation: '"て-form + はいけません" expresses prohibition ("吸ってはいけません" = You must not smoke).'
+  },
+  {
+    question: 'わたしは泳ぐこと（  ）できます。',
+    kana: 'わたしはおよぐこと（  ）できます。',
+    romaji: 'Watashi wa oyogu koto (  ) dekimasu.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'と/to'
+    ],
+    correct: 'が/ga',
+    explanation: '"ことができる" expresses ability, and "が" typically marks the nominalized verb phrase ("泳ぐことができる" = can swim).'
+  },
+  {
+    question: 'しゅみは音楽を（  ）ことです。',
+    kana: 'しゅみはおんがくを（  ）ことです。',
+    romaji: 'Shumi wa ongaku o (  ) koto desu.',
+    options: [
+      '聞く/きく/kiku',
+      '聞いて/きいて/kiite',
+      '聞いた/きいた/kiita',
+      '聞かない/きかない/kikanai'
+    ],
+    correct: '聞く/きく/kiku',
+    explanation: 'Dictionary form + "こと" turns a verb into a noun ("音楽を聞くこと" = listening to music) as a hobby.'
+  },
+  {
+    question: 'ごはんを食べる（  ）、手を洗います。',
+    kana: 'ごはんをたべる（  ）、てをあらいます。',
+    romaji: 'Gohan o taberu (  ), te o araimasu.',
+    options: [
+      '前に/まえに/mae ni',
+      '後に/あとに/ato ni',
+      '間で/あいで/aida de',
+      '中に/なかで/naka de'
+    ],
+    correct: '前に/まえに/mae ni',
+    explanation: 'Dictionary form + "前に" means "before doing X" ("食べる前に" = before eating).'
+  },
+  {
+    question: '仕事が（  ）あとで、晩ごはんを食べます。',
+    kana: 'しごとが（  ）あとで、ばんごはんをたべます。',
+    romaji: 'Shigoto ga (  ) ato de, bangohan o tabemasu.',
+    options: [
+      '終わった/おわった/owatta',
+      '終わる/おわる/owaru',
+      '終わって/おわって/owatte',
+      '終わらない/おわらない/owaranai'
+    ],
+    correct: '終わった/おわった/owatta',
+    explanation: 'Past plain form (た-form) + "あとで" means "after X is completed" ("終わったあとで" = after work finishes).'
+  },
+  {
+    question: '駅まで（  ）行きますか。',
+    kana: 'えきまで（  ）いきますか。',
+    romaji: 'Eki made (  ) ikimasu ka.',
+    options: [
+      'どうやって/dou yatte',
+      'だれが/dare ga',
+      'いつ/itsu',
+      'なにを/nani o'
+    ],
+    correct: 'どうやって/dou yatte',
+    explanation: '"どうやって" asks "how" or by what means/way to get to the station.'
+  },
+  {
+    question: 'このりんごは（  ）ですか。',
+    kana: 'このりんごは（  ）ですか。',
+    romaji: 'Kono ringo wa (  ) desu ka.',
+    options: [
+      'いくら/ikura',
+      'いくつ/ikutsu',
+      'だれ/dare',
+      'どこ/doko'
+    ],
+    correct: 'いくら/ikura',
+    explanation: '"いくら" asks the price of something ("いくらですか" = How much is this apple?).'
+  },
+  {
+    question: 'きょうは（  ）月（  ）日ですか。',
+    kana: 'きょうは（  ）がつ（  ）にちですか。',
+    romaji: 'Kyou wa (  ) gatsu (  ) nichi desu ka.',
+    options: [
+      'なん/なん/nan',
+      'だれ/だれ/dare',
+      'どこ/どこ/doko',
+      'なぜ/なぜ/naze'
+    ],
+    correct: 'なん/なん/nan',
+    explanation: '"なん月なん日" asks what month and day of the month today is.'
+  },
+  {
+    question: 'かばんの中に（  ）がありますか。',
+    kana: 'かばんのなかに（  ）がありますか。',
+    romaji: 'Kaban no naka ni (  ) ga arimasu ka.',
+    options: [
+      'なに/なに/nani',
+      'だれ/だれ/dare',
+      'いつ/いつ/itsu',
+      'なぜ/なぜ/naze'
+    ],
+    correct: 'なに/なに/nani',
+    explanation: '"なに" asks what non-living thing is inside the bag.'
+  },
+  {
+    question: 'あの人（  ）先生ですか。',
+    kana: 'あのひと（  ）せんせいですか。',
+    romaji: 'Ano hito (  ) sensei desu ka.',
+    options: [
+      'は/wa',
+      'を/o',
+      'で/de',
+      'へ/e'
+    ],
+    correct: 'は/wa',
+    explanation: '"は" marks the topic of the sentence ("あの人は" = As for that person, is they a teacher?).'
+  },
+  {
+    question: 'わたしはコーヒー（  ）紅茶が好きです。',
+    kana: 'わたしはこーひー（  ）こうちゃがすきです。',
+    romaji: 'Watashi wa koohii (  ) koucha ga suki desu.',
+    options: [
+      'も/mo',
+      'へ/e',
+      'を/o',
+      'に/ni'
+    ],
+    correct: 'も/mo',
+    explanation: '"も" means "also" or "too," indicating liking black tea in addition to coffee.'
+  },
+  {
+    question: '田中さんはきのう来（  ）。',
+    kana: 'たなかさんはきのうき（  ）。',
+    romaji: 'Tanaka-san wa kinou ki (  ).',
+    options: [
+      'ませんでした/masen deshita',
+      'ました/mashita',
+      'ます/masu',
+      'ません/masen'
+    ],
+    correct: 'ませんでした/masen deshita',
+    explanation: '"きませんでした" is the polite past negative of "来る" (to come), fitting "きのう" (yesterday).'
+  },
+  {
+    question: '毎日、日本語を勉強（  ）。',
+    kana: 'まいにち、にほんごをべんきょう（  ）。',
+    romaji: 'Mainichi, nihongo o benkyou (  ).',
+    options: [
+      'します/shimasu',
+      'しました/shimashita',
+      'しませんでした/shimasen deshita',
+      'した/shita'
+    ],
+    correct: 'します/shimasu',
+    explanation: '"勉強します" is the polite present/habitual form for "study," matching "毎日" (every day).'
+  },
+  {
+    question: 'あしたは雨（  ）降るでしょう。',
+    kana: 'あしたはあめ（  ）ふるでしょう。',
+    romaji: 'Ashita wa ame (  ) furu deshou.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'に/ni'
+    ],
+    correct: 'が/ga',
+    explanation: '"が" marks the subject "雨" in the weather prediction "雨が降るでしょう" (it will probably rain).'
+  },
+  {
+    question: 'このケーキはおいし（  ）ですね。',
+    kana: 'このけーきはおいし（  ）ですね。',
+    romaji: 'Kono keeki wa oishi (  ) desu ne.',
+    options: [
+      'そう/sou',
+      'ない/nai',
+      'た/ta',
+      'く/ku'
+    ],
+    correct: 'そう/sou',
+    explanation: '"おいしい" drops its final "い" before "そう" to express appearance/impression ("おいしそう" = looks delicious).'
+  },
+  {
+    question: 'あの子は元気（  ）ありません。',
+    kana: 'あのこはげんき（  ）ありません。',
+    romaji: 'Ano ko wa genki (  ) arimasen.',
+    options: [
+      'では/de wa',
+      'くは/ku wa',
+      'いは/i wa',
+      'を/o'
+    ],
+    correct: 'では/de wa',
+    explanation: '"元気" is a な-adjective, so its polite negative form is "元気ではありません" (not energetic/well).'
+  },
+  {
+    question: '東京は大阪（  ）人がおおいです。',
+    kana: 'とうきょうはおおさか（  ）ひとがおおいです。',
+    romaji: 'Toukyou wa Oosaka (  ) hito ga ooi desu.',
+    options: [
+      'より/yori',
+      'ほど/hodo',
+      'まで/made',
+      'から/kara'
+    ],
+    correct: 'より/yori',
+    explanation: '"より" means "than" in comparisons ("大阪より" = than Osaka).'
+  },
+  {
+    question: '新幹線は飛行機（  ）速くないです。',
+    kana: 'しんかんせんはひこうき（  ）はやくないです。',
+    romaji: 'Shinkansen wa hikouki (  ) hayakunai desu.',
+    options: [
+      'ほど/hodo',
+      'より/yori',
+      'へ/e',
+      'を/o'
+    ],
+    correct: 'ほど/hodo',
+    explanation: '"ほど + negative" means "not as... as" ("飛行機ほど速くない" = not as fast as an airplane).'
+  },
+  {
+    question: '九時（  ）五時まで働きます。',
+    kana: 'くじ（  ）ごじまではたらきます。',
+    romaji: 'Kuji (  ) goji made hatarakimasu.',
+    options: [
+      'から/kara',
+      'まで/made',
+      'に/ni',
+      'へ/e'
+    ],
+    correct: 'から/kara',
+    explanation: '"から...まで" means "from... to/until" ("九時から五時まで" = from 9:00 to 5:00).'
+  },
+  {
+    question: '銀行は郵便局（  ）となりにあります。',
+    kana: 'ぎんこうはゆうびんきょく（  ）となりにあります。',
+    romaji: 'Ginkou wa yuubinkyoku (  ) tonari ni arimasu.',
+    options: [
+      'の/no',
+      'に/ni',
+      'で/de',
+      'を/o'
+    ],
+    correct: 'の/no',
+    explanation: 'Location nouns like "となり" (next to) connect to a reference noun with "の" ("郵便局のとなり").'
+  },
+  {
+    question: 'いすの下に犬（  ）います。',
+    kana: 'いすのしたにいぬ（  ）います。',
+    romaji: 'Isu no shita ni inu (  ) imasu.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'で/de'
+    ],
+    correct: 'が/ga',
+    explanation: '"が" marks the living subject "犬" that exists under the chair.'
+  },
+  {
+    question: '冷蔵庫の中にたまご（  ）ありますか。',
+    kana: 'れいぞうこのなかにたまご（  ）ありますか。',
+    romaji: 'Reizouko no naka ni tamago (  ) arimasu ka.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'で/de'
+    ],
+    correct: 'が/ga',
+    explanation: '"が" marks the inanimate item "たまご" (eggs) whose existence inside the refrigerator is being asked.'
+  },
+  {
+    question: '日本語で（  ）と言いますか。',
+    kana: 'にほんごで（  ）といいますか。',
+    romaji: 'Nihongo de (  ) to iimasu ka.',
+    options: [
+      'なん/なん/nan',
+      'だれ/だれ/dare',
+      'どこ/どこ/doko',
+      'いつ/いつ/itsu'
+    ],
+    correct: 'なん/なん/nan',
+    explanation: '"なんと言いますか" asks how something is called or said in Japanese.'
+  },
+  {
+    question: 'その傘は（  ）のですか。',
+    kana: 'そのかさは（  ）のですか。',
+    romaji: 'Sono kasa wa (  ) no desu ka.',
+    options: [
+      'だれ/だれ/dare',
+      'なに/なに/nani',
+      'いつ/いつ/itsu',
+      'なぜ/なぜ/naze'
+    ],
+    correct: 'だれ/だれ/dare',
+    explanation: '"だれの" means "whose," asking who owns that umbrella.'
+  },
+  {
+    question: 'どうしてきのう学校を（  ）んですか。',
+    kana: 'どうしてきのうがっこうを（  ）んですか。',
+    romaji: 'Doushite kinou gakkou o (  ) n desu ka.',
+    options: [
+      '休んだ/やすんだ/yasunda',
+      '休む/やすむ/yasumu',
+      '休んで/やすんで/yasunde',
+      '休まない/やすまない/yasumanai'
+    ],
+    correct: '休んだ/やすんだ/yasunda',
+    explanation: 'Since the action happened yesterday ("きのう"), the past form "休んだ" is used in the "んですか" explanation question.'
+  },
+  {
+    question: '毎日、水をたくさん（  ）ほうがいいです。',
+    kana: 'まいにち、みずをたくさん（  ）ほうがいいです。',
+    romaji: 'Mainichi, mizu o takusan (  ) hou ga ii desu.',
+    options: [
+      '飲んだ/のんだ/nonda',
+      '飲む/のむ/nomu',
+      '飲んで/のんで/nonde',
+      '飲まない/のまない/nomanai'
+    ],
+    correct: '飲んだ/のんだ/nonda',
+    explanation: 'Past plain form (た-form) + "ほうがいいです" gives advice on what is good to do ("飲んだほうがいい").'
+  },
+  {
+    question: 'お酒を（  ）ほうがいいですよ。',
+    kana: 'おさけを（  ）ほうがいいですよ。',
+    romaji: 'Osake o (  ) hou ga ii desu yo.',
+    options: [
+      '飲まない/のまない/nomanai',
+      '飲んだ/のんだ/nonda',
+      '飲んで/のんで/nonde',
+      '飲む/のむ/nomu'
+    ],
+    correct: '飲まない/のまない/nomanai',
+    explanation: 'Negative plain form (ない-form) + "ほうがいいです" advises not doing something ("飲まないほうがいい").'
+  },
+  {
+    question: '漢字の読み方が（  ）。',
+    kana: 'かんじのよみかたが（  ）。',
+    romaji: 'Kanji no yomikata ga (  ).',
+    options: [
+      'わかりません/wakarimasen',
+      'みました/mimashita',
+      'いきます/ikimasu',
+      'たべます/tabemasu'
+    ],
+    correct: 'わかりません/wakarimasen',
+    explanation: '"わかりません" means "do not understand/know," fitting when you do not know how to read a kanji.'
+  },
+  {
+    question: '電気を（  ）寝ましょう。',
+    kana: 'でんきを（  ）ねましょう。',
+    romaji: 'Denki o (  ) nemashou.',
+    options: [
+      '消して/けして/keshite',
+      '消す/けす/kesu',
+      '消した/けした/keshita',
+      '消さない/けさない/kesanai'
+    ],
+    correct: '消して/けして/keshite',
+    explanation: '"て-form" links sequential actions: turn off the light, and let\'s sleep ("消して寝ましょう").'
+  },
+  {
+    question: '図書館で静かに本を（  ）。',
+    kana: 'としょかんでしずかにほんを（  ）。',
+    romaji: 'Toshokan de shizuka ni hon o (  ).',
+    options: [
+      '読みます/よみます/yomimasu',
+      '聞きます/ききます/kikimasu',
+      '歩きます/あるきます/arukimasu',
+      '走ります/はしります/hashirimasu'
+    ],
+    correct: '読みます/よみます/yomimasu',
+    explanation: '"本を読みます" means "read a book," which naturally matches reading quietly in a library.'
+  },
+  {
+    question: '耳で音楽を（  ）。',
+    kana: 'みみでおんがくを（  ）。',
+    romaji: 'Mimi de ongaku o (  ).',
+    options: [
+      '聞きます/ききます/kikimasu',
+      '見ます/みます/mimasu',
+      '話します/はなします/hanashimasu',
+      '書きます/かきます/kakimasu'
+    ],
+    correct: '聞きます/ききます/kikimasu',
+    explanation: '"音楽を聞く" means "listen to music," using the ears ("耳で").'
+  },
+  {
+    question: '鉛筆で名前を（  ）。',
+    kana: 'えんぴつでなまえを（  ）。',
+    romaji: 'Enpitsu de namae o (  ).',
+    options: [
+      '書きます/かきます/kakimasu',
+      '読みます/よみます/yomimasu',
+      '食べます/たべます/tabemasu',
+      '飲みます/のみます/nomimasu'
+    ],
+    correct: '書きます/かきます/kakimasu',
+    explanation: '"名前を書く" means "write one\'s name," using a pencil ("鉛筆で").'
+  },
+  {
+    question: 'あついお茶を（  ）。',
+    kana: 'あついおちゃを（  ）。',
+    romaji: 'Atsui ocha o (  ).',
+    options: [
+      '飲みます/のみます/nomimasu',
+      '食べます/たべます/tabemasu',
+      '着ます/きます/kimasu',
+      '履きます/はきます/hakimasu'
+    ],
+    correct: '飲みます/のみます/nomimasu',
+    explanation: '"お茶を飲む" means "drink tea," matching hot tea ("あついお茶").'
+  },
+  {
+    question: '朝、コートを（  ）出かけます。',
+    kana: 'あさ、こーとを（  ）でかけます。',
+    romaji: 'Asa, kooto o (  ) dekakemasu.',
+    options: [
+      '着て/きて/kite',
+      '履いて/はいて/haite',
+      '飲んで/のんで/nonde',
+      '読んで/よんで/yonde'
+    ],
+    correct: '着て/きて/kite',
+    explanation: '"着る" is used for wearing upper-body clothing or coats ("コートを着る").'
+  },
+  {
+    question: '靴を（  ）部屋に入ります。',
+    kana: 'くつを（  ）へやにはいります。',
+    romaji: 'Kutsu o (  ) heya ni hairimasu.',
+    options: [
+      '脱いで/ぬいで/nuide',
+      '着て/きて/kite',
+      'かけて/kakete',
+      '開けて/あけて/akete'
+    ],
+    correct: '脱いで/ぬいで/nuide',
+    explanation: '"脱ぐ" means "take off" clothes or shoes ("靴を脱ぐ" = take off shoes before entering a room).'
+  },
+  {
+    question: 'くつしたを（  ）外に出ます。',
+    kana: 'くつしたを（  ）そとにでます。',
+    romaji: 'Kutsushita o (  ) soto ni demasu.',
+    options: [
+      '履いて/はいて/haite',
+      '着て/きて/kite',
+      'かぶって/kabutte',
+      'かけて/kakete'
+    ],
+    correct: '履いて/はいて/haite',
+    explanation: '"履く" is used for putting on items on the feet or lower body, such as socks ("くつしたを履く").'
+  },
+  {
+    question: 'ぼうしを（  ）散歩します。',
+    kana: 'ぼうしを（  ）さんぽします。',
+    romaji: 'Boushi o (  ) sanpo shimasu.',
+    options: [
+      'かぶって/kabutte',
+      '履いて/はいて/haite',
+      '飲んで/のんで/nonde',
+      '書いて/かいて/kaite'
+    ],
+    correct: 'かぶって/kabutte',
+    explanation: '"かぶる" is used for wearing headwear like a hat or cap ("ぼうしをかぶる").'
+  },
+  {
+    question: 'めがねを（  ）新聞を読みます。',
+    kana: 'めがねを（  ）しんぶんをよみます。',
+    romaji: 'Megane o (  ) shinbun o yomimasu.',
+    options: [
+      'かけて/kakete',
+      '履いて/はいて/haite',
+      '食べて/たべて/tabete',
+      '泳いで/およいで/oyoide'
+    ],
+    correct: 'かけて/kakete',
+    explanation: '"かける" is used for putting on glasses ("めがねをかける") to read the newspaper.'
+  },
+  {
+    question: 'きのうはスーパーで野菜（  ）買いました。',
+    kana: 'きのうはすーぱーでやさい（  ）かいました。',
+    romaji: 'Kinou wa suupaa de yasai (  ) kaimashita.',
+    options: [
+      'を/o',
+      'へ/e',
+      'に/ni',
+      'と/to'
+    ],
+    correct: 'を/o',
+    explanation: '"を" marks "野菜" (vegetables) as the direct object of "買いました" (bought).'
+  },
+  {
+    question: '日曜日、公園（  ）遊びに行きます。',
+    kana: 'にちようび、こうえん（  ）あそびにいきます。',
+    romaji: 'Nichiyoubi, kouen (  ) asobi ni ikimasu.',
+    options: [
+      'へ/e',
+      'を/o',
+      'が/ga',
+      'で/de'
+    ],
+    correct: 'へ/e',
+    explanation: '"へ" (or "に") indicates the destination to which one goes ("公園へ行く").'
+  },
+  {
+    question: '先生（  ）質問があります。',
+    kana: 'せんせい（  ）しつもんがあります。',
+    romaji: 'Sensei (  ) shitsumon ga arimasu.',
+    options: [
+      'に/ni',
+      'へ/e',
+      'を/o',
+      'と/to'
+    ],
+    correct: 'に/ni',
+    explanation: '"に" marks the person to whom a question is directed ("先生に質問する" = ask the teacher a question).'
+  },
+  {
+    question: 'はさみ（  ）紙を切ります。',
+    kana: 'はさみ（  ）かみをきります。',
+    romaji: 'Hasami (  ) kami o kirimasu.',
+    options: [
+      'で/de',
+      'に/ni',
+      'へ/e',
+      'が/ga'
+    ],
+    correct: 'で/de',
+    explanation: '"で" marks the tool or instrument used ("はさみで" = with scissors) to cut paper.'
+  },
+  {
+    question: '日本語（  ）英語が話せます。',
+    kana: 'にほんご（  ）えいごがはなせます。',
+    romaji: 'Nihongo (  ) eigo ga hanasemasu.',
+    options: [
+      'と/to',
+      'へ/e',
+      'に/ni',
+      'で/de'
+    ],
+    correct: 'と/to',
+    explanation: '"と" connects two languages ("日本語と英語" = Japanese and English) that can be spoken.'
+  },
+  {
+    question: 'この部屋は広くて（  ）です。',
+    kana: 'このへやはひろくて（  ）です。',
+    romaji: 'Kono heya wa hirokute (  ) desu.',
+    options: [
+      'あかるい/akarui',
+      'あかるく/akaruku',
+      'あかるかった/akaru katta',
+      'あかるくない/akaruku nai'
+    ],
+    correct: 'あかるい/akarui',
+    explanation: 'After connecting an earlier い-adjective with "て" ("広くて"), the final predicate takes its normal polite form ("あかるいです" = bright).'
+  },
+  {
+    question: 'この料理は辛く（  ）て、おいしいです。',
+    kana: 'このりょうりはからく（  ）て、おいしいです。',
+    romaji: 'Kono ryouri wa karaku (  ) te, oishii desu.',
+    options: [
+      'なく/naku',
+      'ない/nai',
+      'かった/katta',
+      'だ/da'
+    ],
+    correct: 'なく/naku',
+    explanation: 'To connect a negative い-adjective ("辛くない" = not spicy) with "て", change "ない" to "なくて" ("辛くなくて").'
+  },
+  {
+    question: 'わたしの町は静か（  ）きれいです。',
+    kana: 'わたしのまちはしずか（  ）きれいです。',
+    romaji: 'Watashi no machi wa shizuka (  ) kirei desu.',
+    options: [
+      'で/de',
+      'く/ku',
+      'な/na',
+      'と/to'
+    ],
+    correct: 'で/de',
+    explanation: 'To join な-adjectives ("静か" and "きれい"), use "で" ("静かで").'
+  },
+  {
+    question: 'きのうは忙し（  ）ので、寝るのが遅くなりました。',
+    kana: 'きのうはいそがし（  ）ので、ねるのがおそくなりました。',
+    romaji: 'Kinou wa isogashi (  ) node, neru no ga osoku narimashita.',
+    options: [
+      'かった/katta',
+      'い/i',
+      'く/ku',
+      'だ/da'
+    ],
+    correct: 'かった/katta',
+    explanation: 'Because the reason happened yesterday ("きのう"), the past form "忙しかった" is used before "ので" ("because").'
+  },
+  {
+    question: '雨（  ）降っていますから、かさを持っていきます。',
+    kana: 'あめ（  ）ふっていますから、かさをもっていきます。',
+    romaji: 'Ame (  ) futte imasu kara, kasa o motte ikimasu.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'に/ni'
+    ],
+    correct: 'が/ga',
+    explanation: '"が" marks the subject "雨" in the reason clause "雨が降っていますから" (because it is raining).'
+  },
+  {
+    question: '宿題を（  ）から、遊びます。',
+    kana: 'しゅくだいを（  ）から、あそびます。',
+    romaji: 'Shukudai o (  ) kara, asobimasu.',
+    options: [
+      'してから/shite kara',
+      'するから/suru kara',
+      'しないで/shinai de',
+      'しなくて/shinaku te'
+    ],
+    correct: 'してから/shite kara',
+    explanation: '"て-form + から" means "after doing X" ("してから遊ぶ" = play after doing homework).'
+  },
+  {
+    question: 'いっしょに昼ごはんを（  ）か。',
+    kana: 'いっしょにひるごはんを（  ）か。',
+    romaji: 'Issho ni hirugohan o (  ) ka.',
+    options: [
+      '食べません/たべません/tabemasen',
+      '食べます/たべます/tabemasu',
+      '食べました/たべました/tabemashita',
+      '食べませんでした/たべませんでした/tabemasen deshita'
+    ],
+    correct: '食べません/たべません/tabemasen',
+    explanation: 'Negative question with "〜ませんか" is commonly used in polite Japanese to invite someone ("食べませんか" = Won\'t you eat together?).'
+  },
+  {
+    question: 'ちょっと手伝って（  ）か。',
+    kana: 'ちょっとてつだって（  ）か。',
+    romaji: 'Chotto tetsudatte (  ) ka.',
+    options: [
+      'もらえます/moraemasu',
+      'あげます/agemasu',
+      'きます/kimasu',
+      'いきます/ikimasu'
+    ],
+    correct: 'もらえます/moraemasu',
+    explanation: '"てもらえますか" asks politely if the listener can do a favor for the speaker ("手伝ってもらえますか" = Could you help a little?).'
+  },
+  {
+    question: 'わたしは山田さんに花を（  ）。',
+    kana: 'わたしはやまださんにはなを（  ）。',
+    romaji: 'Watashi wa Yamada-san ni hana o (  ).',
+    options: [
+      'あげました/agemashita',
+      'もらいました/moraimashita',
+      'くれました/kuremashita',
+      'きました/kimashita'
+    ],
+    correct: 'あげました/agemashita',
+    explanation: '"あげました" expresses that the speaker ("わたし") gave something ("花") to someone else ("山田さんに").'
+  },
+  {
+    question: 'わたしは先生に本を（  ）。',
+    kana: 'わたしはせんせいにほんを（  ）。',
+    romaji: 'Watashi wa sensei ni hon o (  ).',
+    options: [
+      'もらいました/moraimashita',
+      'あげました/agemashita',
+      'いきました/ikimashita',
+      'およぎました/oyogimashita'
+    ],
+    correct: 'もらいました/moraimashita',
+    explanation: '"もらいました" expresses receiving something from someone ("先生に本をもらいました" = received a book from the teacher).'
+  },
+  {
+    question: '田中さんがわたしに写真を（  ）。',
+    kana: 'たなかさんがわたしにしゃしんを（  ）。',
+    romaji: 'Tanaka-san ga watashi ni shashin o (  ).',
+    options: [
+      'くれました/kuremashita',
+      'あげました/agemashita',
+      'もらいました/moraimashita',
+      'みました/mimashita'
+    ],
+    correct: 'くれました/kuremashita',
+    explanation: '"くれました" expresses that someone else ("田中さんが") gave something to the speaker ("わたしに").'
+  },
+  {
+    question: 'いま、何時（  ）わかりますか。',
+    kana: 'いま、なんじ（  ）わかりますか。',
+    romaji: 'Ima, nanji (  ) wakarimasu ka.',
+    options: [
+      'か/ka',
+      'を/o',
+      'へ/e',
+      'と/to'
+    ],
+    correct: 'か/ka',
+    explanation: 'Embedded question clauses end with "か" before verbs like "わかります" ("何時かわかりますか" = Do you know what time it is?).'
+  },
+  {
+    question: 'このかばんは大きすぎます。もっと（  ）のがほしいです。',
+    kana: 'このかばんはおおきすぎます。もっと（  ）のがほしいです。',
+    romaji: 'Kono kaban wa ookisugimasu. Motto (  ) no ga hoshii desu.',
+    options: [
+      '小さい/ちいさい/chiisai',
+      '大きい/おおきい/ookii',
+      '長い/ながい/nagai',
+      '高い/たかい/takai'
+    ],
+    correct: '小さい/ちいさい/chiisai',
+    explanation: 'Since this bag is too big ("大きすぎます"), the speaker wants a smaller ("小さい") one.'
+  },
+  {
+    question: '夏休みは北海道（  ）行きたいです。',
+    kana: 'なつやすみはほっかいどう（  ）いきたいです。',
+    romaji: 'Natsuyasumi wa Hokkaidou (  ) ikitai desu.',
+    options: [
+      'へ/e',
+      'を/o',
+      'で/de',
+      'と/to'
+    ],
+    correct: 'へ/e',
+    explanation: '"へ" indicates the destination "北海道" (Hokkaido) where the speaker wants to go.'
+  },
+  {
+    question: 'この電車は東京駅（  ）止まりますか。',
+    kana: 'このでんしゃはとうきょうえき（  ）とまりますか。',
+    romaji: 'Kono densha wa Toukyou-eki (  ) tomarimasu ka.',
+    options: [
+      'に/ni',
+      'を/o',
+      'で/de',
+      'が/ga'
+    ],
+    correct: 'に/ni',
+    explanation: '"に" marks the specific stopping place or destination with "止まる" ("東京駅に止まる").'
+  },
+  {
+    question: '毎晩、十時ごろ（  ）寝ます。',
+    kana: 'まいばん、じゅうじごろ（  ）ねます。',
+    romaji: 'Maiban, juuji goro (  ) nemasu.',
+    options: [
+      'に/ni',
+      'で/de',
+      'を/o',
+      'へ/e'
+    ],
+    correct: 'に/ni',
+    explanation: '"に" attaches to approximate time expressions like "十時ごろ" (around ten o\'clock) to show when sleeping occurs.'
+  },
+  {
+    question: '日本語のテストは（  ）ありましたか。',
+    kana: 'にほんごのてすとは（  ）ありましたか。',
+    romaji: 'Nihongo no tesuto wa (  ) arimashita ka.',
+    options: [
+      'いつ/いつ/itsu',
+      'だれ/だれ/dare',
+      'なに/なに/nani',
+      'なぜ/なぜ/naze'
+    ],
+    correct: 'いつ/いつ/itsu',
+    explanation: '"いつ" asks "when" the Japanese test took place.'
+  },
+  {
+    question: '教室に先生が（  ）。',
+    kana: 'きょうしつにせんせいが（  ）。',
+    romaji: 'Kyoushitsu ni sensei ga (  ).',
+    options: [
+      'います/imasu',
+      'あります/arimasu',
+      'します/shimasu',
+      'きます/kimasu'
+    ],
+    correct: 'います/imasu',
+    explanation: '"います" is used for the existence of people and animals, such as a teacher ("先生") in the classroom.'
+  },
+  {
+    question: '机の上に辞書が（  ）。',
+    kana: 'つくえのうえにじしょが（  ）。',
+    romaji: 'Tsukue no ue ni jisho ga (  ).',
+    options: [
+      'あります/arimasu',
+      'います/imasu',
+      'たべます/tabemasu',
+      'のみます/nomimasu'
+    ],
+    correct: 'あります/arimasu',
+    explanation: '"あります" is used for the existence of non-living objects like a dictionary ("辞書") on a desk.'
+  },
+  {
+    question: '駅の前（  ）交番があります。',
+    kana: 'えきのまえ（  ）こうばんがあります。',
+    romaji: 'Eki no mae (  ) kouban ga arimasu.',
+    options: [
+      'に/ni',
+      'を/o',
+      'へ/e',
+      'と/to'
+    ],
+    correct: 'に/ni',
+    explanation: '"に" marks the location where something exists with "あります" ("駅の前に" = in front of the station).'
+  },
+  {
+    question: 'きょうは風（  ）強いです。',
+    kana: 'きょうはかぜ（  ）つよいです。',
+    romaji: 'Kyou wa kaze (  ) tsuyoi desu.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'に/ni'
+    ],
+    correct: 'が/ga',
+    explanation: '"が" marks the subject "風" (wind) that is described as strong ("強い").'
+  },
+  {
+    question: 'このりんごはあまくて（  ）です。',
+    kana: 'このりんごはあまくて（  ）です。',
+    romaji: 'Kono ringo wa amakute (  ) desu.',
+    options: [
+      'みずみずしい/mizumizushii',
+      'みずみずしく/mizumizushiku',
+      'みずみずしかった/mizumizushikatta',
+      'みずみずしくない/mizumizushikunai'
+    ],
+    correct: 'みずみずしい/mizumizushii',
+    explanation: 'After joining an earlier い-adjective with "て" ("あまくて"), the sentence ends with the present affirmative adjective form.'
+  },
+  {
+    question: 'きょうはとても（  ）ですから、帽子をかぶりましょう。',
+    kana: 'きょうはとても（  ）ですから、ぼうしをかぶりましょう。',
+    romaji: 'Kyou wa totemo (  ) desu kara, boushi o kaburimashou.',
+    options: [
+      'あつい/あつい/atsui',
+      'あつく/あつく/atsuku',
+      'あつかった/あつかった/atsukatta',
+      'あつくない/あつくない/atsukunai'
+    ],
+    correct: 'あつい/あつい/atsui',
+    explanation: 'Wearing a hat makes sense when the weather is hot ("あつい"), which is why "あつい" is the right adjective.'
+  },
+  {
+    question: 'きのうの映画は（  ）かったです。',
+    kana: 'きのうのえいがは（  ）かったです。',
+    romaji: 'Kinou no eiga wa (  ) katta desu.',
+    options: [
+      'たのし/たのし/tanoshi',
+      'たのしい/たのしい/tanoshii',
+      'たのしく/たのしく/tanoshiku',
+      'たのしそう/たのしそう/tanoshisou'
+    ],
+    correct: 'たのし/たのし/tanoshi',
+    explanation: 'The past form of the い-adjective "楽しい" is "楽しかった", so before "かったです" the stem "たのし" is used.'
+  },
+  {
+    question: 'この問題はむずかしく（  ）。かんたんです。',
+    kana: 'このもんだいはむずかしく（  ）。かんたんです。',
+    romaji: 'Kono mondai wa muzukashiku (  ). Kantan desu.',
+    options: [
+      'ないです/nai desu',
+      'ありました/arimashita',
+      'でした/deshita',
+      'ます/masu'
+    ],
+    correct: 'ないです/nai desu',
+    explanation: 'The following sentence says it is easy ("かんたんです"), so the problem is not difficult ("むずかしくないです").'
+  },
+  {
+    question: 'わたしは甘いもの（  ）すきです。',
+    kana: 'わたしはあまいもの（  ）すきです。',
+    romaji: 'Watashi wa amai mono (  ) suki desu.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'で/de'
+    ],
+    correct: 'が/ga',
+    explanation: 'With "すき" (like), "が" typically marks the thing liked ("甘いものがすき" = like sweet things).'
+  },
+  {
+    question: 'わたしは辛い料理（  ）きらいです。',
+    kana: 'わたしはからいりょうり（  ）きらいです。',
+    romaji: 'Watashi wa karai ryouri (  ) kirai desu.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'で/de'
+    ],
+    correct: 'が/ga',
+    explanation: 'With "きらい" (dislike), "が" marks what is disliked ("辛い料理がきらい").'
+  },
+  {
+    question: '日本語の勉強は（  ）ですか。',
+    kana: 'にほんごのべんきょうは（  ）ですか。',
+    romaji: 'Nihongo no benkyou wa (  ) desu ka.',
+    options: [
+      'どう/dou',
+      'だれ/dare',
+      'いつ/itsu',
+      'いくら/ikura'
+    ],
+    correct: 'どう/dou',
+    explanation: '"どうですか" asks how something is or how it is going ("日本語の勉強はどうですか" = How is your Japanese study?).'
+  },
+  {
+    question: 'あれは（  ）の建物ですか。',
+    kana: 'あれは（  ）のたてものですか。',
+    romaji: 'Are wa (  ) no tatemono desu ka.',
+    options: [
+      'なん/なん/nan',
+      'だれ/だれ/dare',
+      'いつ/いつ/itsu',
+      'いくら/ikura'
+    ],
+    correct: 'なん/なん/nan',
+    explanation: '"なんの建物" asks what kind of building that is.'
+  },
+  {
+    question: 'すみません、トイレは（  ）ですか。',
+    kana: 'すみません、といれは（  ）ですか。',
+    romaji: 'Sumimasen, toire wa (  ) desu ka.',
+    options: [
+      'どこ/doko',
+      'だれ/dare',
+      'いつ/itsu',
+      'いくら/ikura'
+    ],
+    correct: 'どこ/doko',
+    explanation: '"どこ" asks for a location ("トイレはどこですか" = Where is the restroom?).'
+  },
+  {
+    question: 'お誕生日は（  ）ですか。',
+    kana: 'おたんじょうびは（  ）ですか。',
+    romaji: 'Otanjoubi wa (  ) desu ka.',
+    options: [
+      'いつ/itsu',
+      'どこ/doko',
+      'だれ/dare',
+      'いくら/ikura'
+    ],
+    correct: 'いつ/itsu',
+    explanation: '"いつ" asks when a birthday is.'
+  },
+  {
+    question: 'あの青い車（  ）だれのですか。',
+    kana: 'あのあおいくるま（  ）だれのですか。',
+    romaji: 'Ano aoi kuruma (  ) dare no desu ka.',
+    options: [
+      'は/wa',
+      'を/o',
+      'へ/e',
+      'で/de'
+    ],
+    correct: 'は/wa',
+    explanation: '"は" marks the topic "あの青い車" (that blue car) being asked about.'
+  },
+  {
+    question: 'この切符は一枚（  ）いくらですか。',
+    kana: 'このきっぷはいちまい（  ）いくらですか。',
+    romaji: 'Kono kippu wa ichimai (  ) ikura desu ka.',
+    options: [
+      'で/de',
+      'に/ni',
+      'へ/e',
+      'と/to'
+    ],
+    correct: 'で/de',
+    explanation: '"で" can state a unit/amount in price expressions ("一枚でいくら" = how much per ticket/sheet).'
+  },
+  {
+    question: 'みんなで写真を（  ）。',
+    kana: 'みんなでしゃしんを（  ）。',
+    romaji: 'Minna de shashin o (  ).',
+    options: [
+      '撮りましょう/とりましょう/torimashou',
+      '飲みましょう/のみましょう/nomimashou',
+      '着ましょう/きましょう/kimashou',
+      '寝ましょう/ねましょう/nemashou'
+    ],
+    correct: '撮りましょう/とりましょう/torimashou',
+    explanation: '"写真を撮りましょう" means "Let\'s take a photo," matching "みんなで" (everyone together).'
+  },
+  {
+    question: 'もうすぐ晩ごはんですから、お菓子を（  ）ないでください。',
+    kana: 'もうすぐばんごはんですから、おかしを（  ）ないでください。',
+    romaji: 'Mousugu bangohan desu kara, okashi o (  ) nai de kudasai.',
+    options: [
+      '食べ/たべ/tabe',
+      '飲み/のみ/nomi',
+      '書き/かき/kaki',
+      '読み/よみ/yomi'
+    ],
+    correct: '食べ/たべ/tabe',
+    explanation: 'Negative plain stem + "ないでください" requests not doing something ("食べないでください" = Please don\'t eat snacks).'
+  },
+  {
+    question: 'あしたは早く（  ）なりません。',
+    kana: 'あしたははやく（  ）なりません。',
+    romaji: 'Ashita wa hayaku (  ) narimasen.',
+    options: [
+      '起きなければ/おきなければ/okinakereba',
+      '起きて/おきて/okite',
+      '起きた/おきた/okita',
+      '起きる/おきる/okiru'
+    ],
+    correct: '起きなければ/おきなければ/okinakereba',
+    explanation: '"〜なければならない" expresses obligation or necessity ("早く起きなければならない" = must wake up early).'
+  },
+  {
+    question: '日本語の新聞が（  ）ようになりました。',
+    kana: 'にほんごのしんぶんが（  ）ようになりました。',
+    romaji: 'Nihongo no shinbun ga (  ) you ni narimashita.',
+    options: [
+      '読める/よめる/yomeru',
+      '読む/よむ/yomu',
+      '読んで/よんで/yonde',
+      '読んだ/よんだ/yonda'
+    ],
+    correct: '読める/よめる/yomeru',
+    explanation: 'Potential form + "ようになる" expresses a change to a state of being able to do something ("読めるようになった" = became able to read).'
+  },
+  {
+    question: '毎日、漢字を（  ）ようにしています。',
+    kana: 'まいにち、かんじを（  ）ようにしています。',
+    romaji: 'Mainichi, kanji o (  ) you ni shite imasu.',
+    options: [
+      '書く/かく/kaku',
+      '書いた/かいた/kaita',
+      '書いて/かいて/kaite',
+      '書こう/かこう/kakou'
+    ],
+    correct: '書く/かく/kaku',
+    explanation: 'Dictionary form + "ようにする" expresses making an effort or habit ("書くようにしている" = try to write every day).'
+  },
+  {
+    question: 'きのう、富士山に（  ）ことがありますか。',
+    kana: 'きのう、ふじさんに（  ）ことがありますか。',
+    romaji: 'Kinou, Fujisan ni (  ) koto ga arimasu ka.',
+    options: [
+      '登った/のぼった/nobotta',
+      '登る/のぼる/noboru',
+      '登って/のぼって/nobotte',
+      '登らない/のぼらない/noboranai'
+    ],
+    correct: '登った/のぼった/nobotta',
+    explanation: 'Past plain form (た-form) + "ことがある" expresses having the experience of doing something ("登ったことがある" = have climbed).'
+  },
+  {
+    question: 'わたしは弟（  ）背が高いです。',
+    kana: 'わたしはおとうと（  ）せがたかいです。',
+    romaji: 'Watashi wa otouto (  ) se ga takai desu.',
+    options: [
+      'より/yori',
+      'へ/e',
+      'を/o',
+      'と/to'
+    ],
+    correct: 'より/yori',
+    explanation: '"より" is used to compare two things/people ("弟より背が高い" = taller than my younger brother).'
+  },
+  {
+    question: 'クラスの中で、だれ（  ）いちばん背が高いですか。',
+    kana: 'くらすのなかで、だれ（  ）いちばんせがたかいですか。',
+    romaji: 'Kurasu no naka de, dare (  ) ichiban se ga takai desu ka.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'で/de'
+    ],
+    correct: 'が/ga',
+    explanation: '"だれが" asks who is the subject of the superlative statement ("だれがいちばん〜").'
+  },
+  {
+    question: 'この中で、どれ（  ）おいしいですか。',
+    kana: 'このなかで、どれ（  ）おいしいですか。',
+    romaji: 'Kono naka de, dore (  ) oishii desu ka.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'で/de'
+    ],
+    correct: 'が/ga',
+    explanation: '"どれが" asks which one among the choices is the subject of "おいしい" (delicious).'
+  },
+  {
+    question: 'いっしょに映画館（  ）行きませんか。',
+    kana: 'いっしょにえいがかん（  ）いきませんか。',
+    romaji: 'Issho ni eigakan (  ) ikimasen ka.',
+    options: [
+      'へ/e',
+      'を/o',
+      'が/ga',
+      'で/de'
+    ],
+    correct: 'へ/e',
+    explanation: '"へ" (or "に") marks the destination "映画館" (movie theater) in an invitation to go together.'
+  },
+  {
+    question: '朝ごはん（  ）食べたあと、歯をみがきます。',
+    kana: 'あさごはん（  ）たべたあと、はをみがきます。',
+    romaji: 'Asagohan (  ) tabeta ato, ha o migakimasu.',
+    options: [
+      'を/o',
+      'へ/e',
+      'に/ni',
+      'と/to'
+    ],
+    correct: 'を/o',
+    explanation: '"を" marks "朝ごはん" (breakfast) as the direct object of "食べた" (ate).'
+  },
+  {
+    question: '雨の中を（  ）帰りました。',
+    kana: 'あめのなかを（  ）かえりました。',
+    romaji: 'Ame no naka o (  ) kaerimashita.',
+    options: [
+      '走って/はしって/hashitte',
+      '食べて/たべて/tabete',
+      '飲んで/のんで/nonde',
+      '寝て/ねて/nete'
+    ],
+    correct: '走って/はしって/hashitte',
+    explanation: '"走って帰りました" means "returned home running," fitting moving quickly through the rain.'
+  },
+  {
+    question: '駅まで（  ）どのくらいかかりますか。',
+    kana: 'えきまで（  ）どのくらいかかりますか。',
+    romaji: 'Eki made (  ) donokurai kakarimasu ka.',
+    options: [
+      '歩いて/あるいて/aruite',
+      '食べて/たべて/tabete',
+      '飲んで/のんで/nonde',
+      '着て/きて/kite'
+    ],
+    correct: '歩いて/あるいて/aruite',
+    explanation: '"歩いてどのくらいかかりますか" asks how long it takes on foot ("歩いて") to reach the station.'
+  },
+  {
+    question: '毎朝、ジョギングを（  ）います。',
+    kana: 'まいあさ、じょぎんぐを（  ）います。',
+    romaji: 'Maiasa, jogingu o (  ) imasu.',
+    options: [
+      'して/し/shite',
+      'する/する/suru',
+      'した/した/shita',
+      'しない/しない/shinai'
+    ],
+    correct: 'して/し/shite',
+    explanation: '"て-form + います" expresses a habitual or ongoing routine ("ジョギングをしている" = jogging).'
+  },
+  {
+    question: 'ドアが（  ）います。',
+    kana: 'どあが（  ）います。',
+    romaji: 'Doa ga (  ) imasu.',
+    options: [
+      '開いて/あいて/aite',
+      '開けて/あけて/akete',
+      '開ける/あける/akeru',
+      '開けた/あけた/aketa'
+    ],
+    correct: '開いて/あいて/aite',
+    explanation: 'In-transitive "開く + ている" describes a resulting state ("ドアが開いている" = the door is open).'
+  },
+  {
+    question: 'かぎが（  ）いますから、入ってください。',
+    kana: 'かぎが（  ）いますから、はいってください。',
+    romaji: 'Kagi ga (  ) imasu kara, haitte kudasai.',
+    options: [
+      '開いて/あいて/aite',
+      '閉まって/しまって/shimatte',
+      '消えて/きえて/kiete',
+      '壊れて/こわれて/kowarete'
+    ],
+    correct: '開いて/あいて/aite',
+    explanation: 'Because the lock/door is unlocked/open ("開いています"), the speaker invites the listener to come in.'
+  },
+  {
+    question: '電気が（  ）います。消してください。',
+    kana: 'でんきが（  ）います。けしてください。',
+    romaji: 'Denki ga (  ) imasu. Keshite kudasai.',
+    options: [
+      'ついて/tsuite',
+      '消えて/きえて/kiete',
+      '開いて/あいて/aite',
+      '閉まって/しまって/shimatte'
+    ],
+    correct: 'ついて/tsuite',
+    explanation: '"電気がついている" means the light is on, which leads to the request to turn it off ("消してください").'
+  },
+  {
+    question: 'きょうは日曜日ですから、銀行は（  ）。',
+    kana: 'きょうはにちようびですから、ぎんこうは（  ）。',
+    romaji: 'Kyou wa nichiyoubi desu kara, ginkou wa (  ).',
+    options: [
+      '休みです/やすみです/yasumi desu',
+      '来ます/きます/kimasu',
+      '食べます/たべます/tabemasu',
+      '読みます/よみます/yomimasu'
+    ],
+    correct: '休みです/やすみです/yasumi desu',
+    explanation: '"休みです" means closed or off duty, which naturally fits a bank on Sunday.'
+  },
+  {
+    question: 'さくらが（  ）きれいです。',
+    kana: 'さくらが（  ）きれいです。',
+    romaji: 'Sakura ga (  ) kirei desu.',
+    options: [
+      '咲いて/さいて/saite',
+      '降って/ふって/futte',
+      '飲んで/のんで/nonde',
+      '書いて/かいて/kaite'
+    ],
+    correct: '咲いて/さいて/saite',
+    explanation: '"咲く" means for flowers to bloom ("さくらが咲いてきれいです" = the cherry blossoms are blooming and pretty).'
+  },
+  {
+    question: '冬は雪が（  ）。',
+    kana: 'ふゆはゆきが（  ）。',
+    romaji: 'Fuyu wa yuki ga (  ).',
+    options: [
+      '降ります/ふります/furimasu',
+      '咲きます/さきます/sakimasu',
+      '泳ぎます/およぎます/oyogimasu',
+      '走ります/はしります/hashirimasu'
+    ],
+    correct: '降ります/ふります/furimasu',
+    explanation: '"降る" is used for snow falling ("雪が降ります" = it snows).'
+  },
+  {
+    question: 'プールで（  ）。',
+    kana: 'ぷーるで（  ）。',
+    romaji: 'Puuru de (  ).',
+    options: [
+      '泳ぎます/およぎます/oyogimasu',
+      '食べます/たべます/tabemasu',
+      '寝ます/ねます/nemasu',
+      '着ます/きます/kimasu'
+    ],
+    correct: '泳ぎます/およぎます/oyogimasu',
+    explanation: '"泳ぐ" means to swim, which matches taking place in a pool ("プールで").'
+  },
+  {
+    question: '疲れたから、少し（  ）。',
+    kana: 'つかれたから、すこし（  ）。',
+    romaji: 'Tsukareta kara, sukoshi (  ).',
+    options: [
+      '休みましょう/やすみましょう/yasumimashou',
+      '走りましょう/はしりましょう/hashirimashou',
+      '歌いましょう/うたいましょう/utaimashou',
+      '買いましょう/かいましょう/kaimashou'
+    ],
+    correct: '休みましょう/やすみましょう/yasumimashou',
+    explanation: 'Because of being tired ("疲れたから"), suggesting a short rest ("少し休みましょう" = Let\'s rest a little) makes sense.'
+  },
+  {
+    question: '大きな声で（  ）ください。',
+    kana: 'おおきなこえで（  ）ください。',
+    romaji: 'Ookina koe de (  ) kudasai.',
+    options: [
+      '話して/はなして/hanashite',
+      '見て/みて/mite',
+      '着て/きて/kite',
+      '履いて/はいて/haite'
+    ],
+    correct: '話して/はなして/hanashite',
+    explanation: '"大きな声で話してください" means "Please speak in a loud voice."'
+  },
+  {
+    question: '歌を（  ）のが好きです。',
+    kana: 'うたを（  ）のがすきです。',
+    romaji: 'Uta o (  ) no ga suki desu.',
+    options: [
+      '歌う/うたう/utau',
+      '歌って/うたって/utatte',
+      '歌った/うたった/utatta',
+      '歌わない/うたわない/utawanai'
+    ],
+    correct: '歌う/うたう/utau',
+    explanation: 'Dictionary form + "の" nominalizes the verb ("歌を歌うの" = singing songs) as something liked.'
+  },
+  {
+    question: '買い物に行く（  ）、お金をおろします。',
+    kana: 'かいものにいく（  ）、おかねをおろします。',
+    romaji: 'Kaimono ni iku (  ), okane o oroshimasu.',
+    options: [
+      '前に/まえに/mae ni',
+      'あとで/あとで/ato de',
+      'ながら/ながら/nagara',
+      'より/より/yori'
+    ],
+    correct: '前に/まえに/mae ni',
+    explanation: 'Dictionary form + "前に" means "before going shopping" ("買い物に行く前に").'
+  },
+  {
+    question: '音楽を（  ）勉強します。',
+    kana: 'おんがくを（  ）べんきょうします。',
+    romaji: 'Ongaku o (  ) benkyou shimasu.',
+    options: [
+      '聞きながら/ききながら/kikinagara',
+      '聞いてから/きいてから/kiite kara',
+      '聞いたあと/きいたあと/kiita ato',
+      '聞かないで/きかないで/kikanai de'
+    ],
+    correct: '聞きながら/ききながら/kikinagara',
+    explanation: 'Verb stem + "ながら" expresses doing two actions simultaneously ("聞きながら勉強する" = study while listening to music).'
+  },
+  {
+    question: 'このかばんは安くて（  ）です。',
+    kana: 'このかばんはやすくて（  ）です。',
+    romaji: 'Kono kaban wa yasukute (  ) desu.',
+    options: [
+      'じょうぶ/じょうぶ/joubu',
+      'じょうぶな/じょうぶな/joubu na',
+      'じょうぶに/じょうぶに/joubu ni',
+      'じょうぶで/じょうぶで/joubu de'
+    ],
+    correct: 'じょうぶ/じょうぶ/joubu',
+    explanation: '"じょうぶ" (sturdy/durable) is a な-adjective used as the predicate with "です" ("じょうぶです").'
+  },
+  {
+    question: 'きょうは（  ）天気ですね。',
+    kana: 'きょうは（  ）てんきですね。',
+    romaji: 'Kyou wa (  ) tenki desu ne.',
+    options: [
+      'いい/いい/ii',
+      'よく/よく/yoku',
+      'よかった/よかった/yokatta',
+      'よくない/よくない/yokunai'
+    ],
+    correct: 'いい/いい/ii',
+    explanation: 'Before the noun "天気" (weather), the attributive form "いい" is used ("いい天気ですね" = Nice weather today, isn\'t it?).'
+  },
+  {
+    question: 'このりんごは（  ）ないです。',
+    kana: 'このりんごは（  ）ないです。',
+    romaji: 'Kono ringo wa (  ) nai desu.',
+    options: [
+      'あまく/あまく/amaku',
+      'あまい/あまい/amai',
+      'あまくて/あまくて/amakute',
+      'あまかった/あまかった/amakatta'
+    ],
+    correct: 'あまく/あまく/amaku',
+    explanation: 'The negative of the い-adjective "あまい" (sweet) is formed with "く" + "ない" ("あまくないです" = not sweet).'
+  },
+  {
+    question: 'きのうは（  ）日でした。',
+    kana: 'きのうは（  ）ひでした。',
+    romaji: 'Kinou wa (  ) hi deshita.',
+    options: [
+      'あめ/あめ/ame',
+      'あめに/あめに/ame ni',
+      'あめを/あめを/ame o',
+      'あめで/あめで/ame de'
+    ],
+    correct: 'あめ/あめ/ame',
+    explanation: '"あめの日" means "a rainy day," using "の" or noun juxtaposition directly before "日".'
+  },
+  {
+    question: 'あそこに（  ）猫がいます。',
+    kana: 'あそこに（  ）ねこがいます。',
+    romaji: 'Asoko ni (  ) neko ga imasu.',
+    options: [
+      'しろい/しろい/shiroi',
+      'しろく/しろく/shiroku',
+      'しろかった/しろかった/shirokatta',
+      'しろくない/しろくない/shirokunai'
+    ],
+    correct: 'しろい/しろい/shiroi',
+    explanation: 'The い-adjective "しろい" (white) directly modifies the noun "猫" ("しろい猫" = white cat).'
+  },
+  {
+    question: 'わたしは毎日、電車（  ）通っています。',
+    kana: 'わたしはまいにち、でんしゃ（  ）かよっています。',
+    romaji: 'Watashi wa mainichi, densha (  ) kayotte imasu.',
+    options: [
+      'で/de',
+      'を/o',
+      'へ/e',
+      'が/ga'
+    ],
+    correct: 'で/de',
+    explanation: '"で" indicates the mode of transportation used to commute ("電車で通う" = commute by train).'
+  },
+  {
+    question: 'この手紙はだれ（  ）書きましたか。',
+    kana: 'このてがみはだれ（  ）かきましたか。',
+    romaji: 'Kono tegami wa dare (  ) kakimashita ka.',
+    options: [
+      'が/ga',
+      'を/o',
+      'へ/e',
+      'に/ni'
+    ],
+    correct: 'が/ga',
+    explanation: '"だれが" asks who performed the action of writing ("書きました") this letter.'
+  },
+  {
+    question: 'お名前は（  ）ですか。',
+    kana: 'おなまえは（  ）ですか。',
+    romaji: 'Onamae wa (  ) desu ka.',
+    options: [
+      'なん/なん/nan',
+      'だれ/だれ/dare',
+      'どこ/どこ/doko',
+      'いつ/いつ/itsu'
+    ],
+    correct: 'なん/なん/nan',
+    explanation: '"お名前はなんですか" is a standard polite question asking for someone\'s name.'
+  },
+  {
+    question: '駅（  ）歩いて十分です。',
+    kana: 'えき（  ）あるいてじゅっぷんです。',
+    romaji: 'Eki (  ) aruite juppun desu.',
+    options: [
+      'から/kara',
+      'を/o',
+      'が/ga',
+      'と/to'
+    ],
+    correct: 'から/kara',
+    explanation: '"駅から" indicates the starting point from which the distance/time is measured ("駅から歩いて十分" = ten minutes\' walk from the station).'
+  },
+  {
+    question: 'あしたは九時（  ）来てください。',
+    kana: 'あしたはくじ（  ）きてください。',
+    romaji: 'Ashita wa kuji (  ) kite kudasai.',
+    options: [
+      'に/ni',
+      'を/o',
+      'へ/e',
+      'が/ga'
+    ],
+    correct: 'に/ni',
+    explanation: '"に" marks the target arrival time ("九時に来てください" = Please come at nine o\'clock).'
+  },
+  {
+    question: '部屋が暗いから、電気を（  ）。',
+    kana: 'へやがくらいから、でんきを（  ）。',
+    romaji: 'Heya ga kurai kara, denki o (  ).',
+    options: [
+      'つけます/つけます/tsukemasu',
+      'けします/けします/keshimasu',
+      'たべます/たべます/tabemasu',
+      'のみます/のみます/nomimasu'
+    ],
+    correct: 'つけます/つけます/tsukemasu',
+    explanation: '"電気をつけます" means "turn on the light," which makes sense when the room is dark ("部屋が暗いから").'
+  },
+  {
+    question: 'あついから、窓を（  ）。',
+    kana: 'あついから、まどを（  ）。',
+    romaji: 'Atsui kara, mado o (  ).',
+    options: [
+      '開けます/あけます/akemasu',
+      '閉めます/しめます/shimemasu',
+      '読みます/よみます/yomimasu',
+      '書きます/かきます/kakimasu'
+    ],
+    correct: '開けます/あけます/akemasu',
+    explanation: '"窓を開けます" means "open the window," fitting when it feels hot ("あついから").'
+  },
+  {
+    question: 'さむいから、ドアを（  ）ください。',
+    kana: 'さむいから、どあを（  ）ください。',
+    romaji: 'Samui kara, doa o (  ) kudasai.',
+    options: [
+      '閉めて/しめて/shimete',
+      '開けて/あけて/akete',
+      '飲んで/のんで/nonde',
+      '泳いで/およいで/oyoide'
+    ],
+    correct: '閉めて/しめて/shimete',
+    explanation: '"ドアを閉めてください" means "Please close the door," fitting when it is cold ("さむいから").'
+  },
+  {
+    question: 'きょうは（  ）から、出かけません。',
+    kana: 'きょうは（  ）から、でかけません。',
+    romaji: 'Kyou wa (  ) kara, dekakemasen.',
+    options: [
+      '雨/あめ/ame',
+      '雨に/あめに/ame ni',
+      '雨を/あめを/ame o',
+      '雨へ/あめへ/ame e'
+    ],
+    correct: '雨/あめ/ame',
+    explanation: 'A noun like "雨" can be followed directly by "から" in casual/spoken or abbreviated phrasing ("雨から" = because of rain) to explain not going out.'
+  },
+  {
+    question: 'このりんごはひとつ（  ）百円です。',
+    kana: 'このりんごはひとつ（  ）ひゃくえんです。',
+    romaji: 'Kono ringo wa hitotsu (  ) hyakuen desu.',
+    options: [
+      'で/de',
+      'へ/e',
+      'を/o',
+      'が/ga'
+    ],
+    correct: 'で/de',
+    explanation: '"ひとつで百円" means "one for 100 yen," using "で" for unit price/quantity.'
+  },
+  {
+    question: '毎朝、牛乳を（  ）。',
+    kana: 'まいあさ、ぎゅうにゅうを（  ）。',
+    romaji: 'Maiasa, gyuunyuu o (  ).',
+    options: [
+      '飲みます/のみます/nomimasu',
+      '食べます/たべます/tabemasu',
+      '着ます/きます/kimasu',
+      '歩きます/あるきます/arukimasu'
+    ],
+    correct: '飲みます/のみます/nomimasu',
+    explanation: '"牛乳を飲みます" means "drink milk," matching "牛乳" (milk) every morning.'
+  },
+  {
+    question: '日曜日、友だちとテニスを（  ）。',
+    kana: 'にちようび、ともだちとてにすを（  ）。',
+    romaji: 'Nichiyoubi, tomodachi to tenisu o (  ).',
+    options: [
+      'します/します/shimasu',
+      '飲みます/のみます/nomimasu',
+      '着ます/きます/kimasu',
+      '寝ます/ねます/nemasu'
+    ],
+    correct: 'します/します/shimasu',
+    explanation: '"テニスをします" means "play tennis," using "する" for sports and games.'
+  },
+  {
+    question: 'テストの前に、たくさん（  ）。',
+    kana: 'てすとのまえに、たくさん（  ）。',
+    romaji: 'Tesuto no mae ni, takusan (  ).',
+    options: [
+      '勉強しましょう/べんきょうしましょう/benkyou shimashou',
+      '寝ましょう/ねましょう/nemashou',
+      '遊びましょう/あそびましょう/asobimashou',
+      '泳ぎましょう/およぎましょう/oyogimashou'
+    ],
+    correct: '勉強しましょう/べんきょうしましょう/benkyou shimashou',
+    explanation: '"勉強しましょう" means "Let\'s study," a natural encouragement before a test ("テストの前に").'
+  },
+  {
+    question: 'あしたは早く（  ）ください。',
+    kana: 'あしたははやく（  ）ください。',
+    romaji: 'Ashita wa hayaku (  ) kudasai.',
+    options: [
+      '起きて/おきて/okite',
+      '起きる/おきる/okiru',
+      '起きた/おきた/okita',
+      '起きない/おきない/okinai'
+    ],
+    correct: '起きて/おきて/okite',
+    explanation: '"早く起きてください" means "Please wake up early tomorrow," using the て-form before "ください".'
+  },
+  {
+    question: 'この本は（  ）ですか。',
+    kana: 'このほんは（  ）ですか。',
+    romaji: 'Kono hon wa (  ) desu ka.',
+    options: [
+      'だれのもの/だれのもの/dare no mono',
+      'いつ/いつ/itsu',
+      'なぜ/なぜ/naze',
+      'どうやって/どうやって/dou yatte'
+    ],
+    correct: 'だれのもの/だれのもの/dare no mono',
+    explanation: '"だれのものですか" asks whose possession ("もの") this book is.'
+  },
+  {
+    question: 'わたしはきのう、映画を（  ）帰りました。',
+    kana: 'わたしはきのう、えいがを（  ）かえりました。',
+    romaji: 'Watashi wa kinou, eiga o (  ) kaerimashita.',
+    options: [
+      '見てから/みてから/mite kara',
+      '見るから/みるから/miru kara',
+      '見ないで/みないで/minai de',
+      '見なくて/みなくて/minaku te'
+    ],
+    correct: '見てから/みてから/mite kara',
+    explanation: '"見てから帰りました" means "returned home after watching the movie," using "てから" for sequence.'
+  },
+  {
+    question: 'あの山はとても（  ）です。',
+    kana: 'あのやまはとても（  ）です。',
+    romaji: 'Ano yama wa totemo (  ) desu.',
+    options: [
+      '高い/たかい/takai',
+      '高く/たかく/takaku',
+      '高かった/たかかった/takakatta',
+      '高くない/たかくない/takakunai'
+    ],
+    correct: '高い/たかい/takai',
+    explanation: '"高い" means high/tall, which naturally describes a mountain ("山") in the present state.'
+  },
+  {
+    question: 'きのうは（  ）日でしたか。',
+    kana: 'きのうは（  ）ひでしたか。',
+    romaji: 'Kinou wa (  ) hi deshita ka.',
+    options: [
+      'どんな/どんな/donna',
+      'だれ/だれ/dare',
+      'どこ/どこ/doko',
+      'いくら/いくら/ikura'
+    ],
+    correct: 'どんな/どんな/donna',
+    explanation: '"どんな" means "what kind of" and modifies nouns like "日" ("どんな日でしたか" = What kind of day was yesterday?).'
+  },
+  {
+    question: 'わたしは毎朝、コーヒー（  ）飲みます。',
+    kana: 'わたしはまいあさ、こーひー（  ）のみます。',
+    romaji: 'Watashi wa maiasa, koohii (  ) nomimasu.',
+    options: [
+      'を/o',
+      'へ/e',
+      'に/ni',
+      'が/ga'
+    ],
+    correct: 'を/o',
+    explanation: '"を" marks "コーヒー" (coffee) as the direct object of "飲みます" (drink).'
+  },
+  {
+    question: 'あしたは学校へ（  ）。',
+    kana: 'あしたはがっこうへ（  ）。',
+    romaji: 'Ashita wa gakkou e (  ).',
+    options: [
+      '行きます/いきます/ikimasu',
+      '行きました/いきました/ikimashita',
+      '行きませんでした/いきませんでした/ikimasen deshita',
+      '行った/いった/itta'
+    ],
+    correct: '行きます/いきます/ikimasu',
+    explanation: 'For tomorrow ("あした"), the non-past polite verb "行きます" expresses a future action.'
+  },
+  {
+    question: 'きのう、デパートで靴（  ）買いました。',
+    kana: 'きのう、でぱーとでくつ（  ）かいました。',
+    romaji: 'Kinou, depaato de kutsu (  ) kaimashita.',
+    options: [
+      'を/o',
+      'へ/e',
+      'に/ni',
+      'と/to'
+    ],
+    correct: 'を/o',
+    explanation: '"を" marks "靴" (shoes) as the direct object of "買いました" (bought).'
+  },
+  {
+    question: 'いま、雨が（  ）います。',
+    kana: 'いま、あめが（  ）います。',
+    romaji: 'Ima, ame ga (  ) imasu.',
+    options: [
+      '降って/ふって/futte',
+      '咲いて/さいて/saite',
+      '泳いで/およいで/oyoide',
+      '歩いて/あるいて/aruite'
+    ],
+    correct: '降って/ふって/futte',
+    explanation: '"雨が降っています" means "it is raining right now," using "降る + ている" with subject marker "が".'
+  }
 ];
