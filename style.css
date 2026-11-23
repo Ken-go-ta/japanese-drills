@@ -108,6 +108,7 @@ main {
     height: 80vh;
     border-radius: 10px;
     background-color: #fff;
+    opacity: 0;
 }
 
 .qa_main {
@@ -428,9 +429,10 @@ button#js-next {
     justify-content: center;
     font-size: 28px;
     font-weight: 700;
-    color: #ee0d60;
+    color: #17375f;
     text-align: center;
     line-height: 2rem;
+    opacity: 0;
 }
 
 
@@ -469,6 +471,10 @@ button#js-next {
         font-size: 14px;
         height: auto;
         min-height: 100vh;
+        background-position: center left;
+        background-size: auto 100vh;
+        background-repeat: no-repeat;
+        background-color: #eaf0ff;
     }
 
     h1 {
