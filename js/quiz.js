@@ -50,5 +50,4 @@ export function checkAnswer(selectedAnswer, correctAnswer) {
 // 次の問題へ進む
 export function nextQuestion() {
     currentQuestionIndex++;
-    // press();
 }

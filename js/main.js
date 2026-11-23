@@ -30,6 +30,7 @@ const retakeButton = document.querySelector('#js-retake');
 const resultText = document.querySelector('#js-result');
 const title = document.querySelector('#js-title');
 const main = document.querySelector('#js-main');
+const mainBox = document.querySelector('main');
 const correct = document.querySelector('#js-correct');
 const wrong = document.querySelector('#js-wrong');
 const questionWrapper = document.querySelector('#js-questionWrapper');
@@ -44,6 +45,24 @@ const soundSwitch = document.querySelector('#js-soundSwitch');
 const correctSound = new Audio('./sounds/dragon-studio-correct-472358.mp3');
 const wrongSound = new Audio('./sounds/universfield-error-notification-08-206492.mp3');
 const pressSound = new Audio('./sounds/freesoundeffects-button-click-289742.mp3');
+const loadingMessage = document.querySelector('#js-loadingMessage');
+
+// loadingMessage.classList.add('hidden');
+window.addEventListener('load', () => {
+    loadingMessage.animate({
+        opacity: [0, 1, 0],
+        visibility: 'hidden',
+    }, {
+        duration: 4000,
+        easing: 'ease-out',
+        fill: 'forwards',
+    });
+});
+
+mainBox.classList.add('hidden');
+window.setTimeout(() => {
+    mainBox.classList.remove('hidden');
+}, 3500);
 
 function playPressSound() {
     if (isMuted) return;
