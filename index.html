@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nihongo Master Drills</title>
     <!-- Font Awesome -->
     <link
     rel="stylesheet"
@@ -14,34 +14,74 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="js-qa" class="container">
-        <h1 id="js-title">Answer 10 Japanese Language Questions!</h1>
-        <button id="js-start">Start</button>
-        <main id="js-main" class="hidden">
-            <div id="js-questionWrapper" class="question_wrapper">
-                <p id="js-questionNumber" class="question_number"></p>
-                <div class="question_details">
-                    <p id="js-question"></p>
-                    <p id="js-kana" ></p>
-                    <p id="js-romaji"></p>
+
+    <h1>
+        Nihongo Master Drills
+    </h1>
+
+    <div id="js-soundSwitch" class="sound_switch">
+        <!-- <i class="fa-solid fa-volume-high"></i> -->
+    </div>
+
+    <div id="js-qa" class="qa_container">
+        <div class="qa_grid">
+            <main>
+                <div id="js-chooseLevel" class="choose_level">
+                    <h2>Learn grammar by answering questions!</h2>
+                    <p id="js-discription" class="description">
+                        Here's a website where you can learn Japanese grammar by answering questions. You'll see an explanation after you answer each question that helps you understand the grammar used in the question. Each level below is based on the level of JLPT.
+                    </p>                
+                    <div class="level_flex">
+                        <div class="js-level" data-level="N5">N5 Level</div>
+                        <div class="js-level" data-level="N4">N4 Level</div>
+                        <div class="js-level" data-level="N3">N3 Level</div>
+                        <div class="js-level" data-level="N2">N2 Level</div>
+                        <div class="js-level" data-level="N1">N1 Level</div>
+                    </div>
+                </div>
+                <div class="ready">
+                    <h2 id="js-title">Are you ready?</h2>
+                    <button id="js-start">Start</button>
+                </div>
+                <div id="js-level" class="level"></div>
+                <div id="js-main" class="qa_main hidden">
+                    <div id="js-questionWrapper" class="question_wrapper">
+                        <p id="js-questionNumber" class="question_number"></p>
+                        <div class="question_details">
+                            <p id="js-question"></p>
+                            <p id="js-kana" ></p>
+                            <p id="js-romaji"></p>
+                        </div>
+                    </div>
+                    <div id="js-answer" class="answer">
+                        <ol id="js-options" class="options" type="A"></ol>
+                    </div>
+                    <p id="js-explanation" class="explanation"></p>
+                    <div id="js-result" class="result"></div>
+                    <button id="js-next" class="hidden">Next Question</button>
+                    <div class="buttons">
+                        <button id="js-retry" class="hidden">Try other 10 questions</button>
+                        <button id="js-retake" class="hidden">Try same questions</button>
+                        <button id="js-backToChoose" class="hidden">Home</button>
+                    </div>
+                </div>
+                <div id="js-correct" class="correct_popup hidden">CORRECT!!</div>
+                <div id="js-wrong" class="wrong_popup hidden">WRONG...</div>
+            </main>
+            <div class="side">
+                <div id="js-scoreWrapper" class="score">
+                    <span id="js-currentScore" class="current_score hidden"></span>  
+                    <div id="js-scoreBar" class="score_bar hidden">
+                        <div id="js-correctBar" class="correct_bar"></div>
+                    </div>
                 </div>
             </div>
-            <div id="js-answer" class="answer">
-                <ol id="js-options" class="options" type="A"></ol>
-            </div>
-            <p id="js-explanation" class="explanation"></p>
-            <p id="js-result" class="result"></p>
-            <button id="js-next" class="hidden">Next Question</button>
-            <div class="buttons">
-                <button id="js-retry" class="hidden">Try other 10 questions</button>
-                <button id="js-retake" class="hidden">Try same questions</button>
-            </div>
-        </main>
-        <div id="js-correct" class="correct_popup hidden">CORRECT!!</div>
-        <div id="js-wrong" class="wrong_popup hidden">WRONG...</div>
-    </div>    
-    <script src="main.js" type="module"></script>
+        </div>
+    </div>  
+    <script src="js/main.js" type="module"></script>
 </body>
 </html>

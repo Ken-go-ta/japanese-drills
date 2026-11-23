@@ -1,0 +1,535 @@
+
+/* ========================================
+   1. Reset
+======================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ========================================
+   2. Common
+======================================== */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/Pastel Sakura Mount Fuji Landscape (1).png");
+    background-position: center;
+    background-size: cover;
+    color: #333;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    line-height: 1.6rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+h1 {
+    position: fixed;
+    top: 16px;
+    left: 20px;
+    color: #ca5983;
+    font-size: 28px;
+    cursor: pointer;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    z-index: 1000000;
+}
+
+button {
+    height: 45px;
+    padding: 0 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1668c8;
+    color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.sound_switch {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ec93b4;
+    z-index: 99999;
+}
+
+.sound_switch i {
+    color: #ee0d60;
+    font-size: 15px;
+}
+
+
+/* ========================================
+   3. Layout
+======================================== */
+
+.qa_container {
+    width: 90%;
+}
+
+.qa_grid {
+    display: grid;
+    grid-template-columns: minmax(0, 4fr) minmax(0, 1fr);
+    width: 100%;
+    gap: 20px;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.qa_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.ready {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+/* ========================================
+   4. Level Selection
+======================================== */
+
+.choose_level {
+    width: 80%;
+}
+
+.choose_level h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+    color: #ee0d60;
+    line-height: 2.2rem;
+}
+
+.description {
+    margin: 0 0 10px;
+}
+
+.level_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.level_flex .js-level {
+    position: relative;
+    width: 48%;
+    margin-top: 10px;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.level_flex .js-level::before {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: solid;
+    border-width: 6px 0 6px 6px;
+    border-color: transparent transparent transparent #ee0d60;
+    content: "";
+    transform: translateY(-85%);
+}
+
+
+/* ========================================
+   5. Question
+======================================== */
+
+.question_wrapper {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.question_number {
+    margin-bottom: 10px;
+    color: #ee0d60;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.question_details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.question_details p {
+    color: #888;
+    font-size: 13px;
+    line-height: 1.25rem;
+}
+
+.question_details p#js-question {
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 18px;
+}
+
+
+/* ========================================
+   6. Answer Options
+======================================== */
+
+.answer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.options li {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    list-style-position: inside;
+    text-align: center;
+    cursor: pointer;
+}
+
+#js-options li.correct {
+    border-color: #ec93b4;
+    background-color: #fff5fc;
+    color: #ee0d60;
+}
+
+#js-options li.wrong {
+    border-color: #17375f;
+    color: #17375f;
+}
+
+#js-options li i {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+/* ========================================
+   7. Explanation
+======================================== */
+
+.explanation {
+    width: 80%;
+    margin-top: 12px;
+    padding: 20px;
+    background-color: #eff5fd;
+    color: #17375f;
+}
+
+
+/* ========================================
+   8. Feedback Popup
+======================================== */
+
+.correct_popup,
+.wrong_popup {
+    position: absolute;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 800;
+    text-shadow: 0 4px 7px rgb(0 0 0 / 15%);
+    transition: all 0.2s;
+}
+
+.correct_popup {
+    color: #ee0d60;
+}
+
+.wrong_popup {
+    color: #17375f;
+}
+
+
+/* ========================================
+   9. Result
+======================================== */
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    border: 1px solid #f3dce4;
+    border-radius: 50%;
+    background-color: #fdf8fa;
+    font-size: 20px;
+    line-height: 2.5em;
+    text-align: center;
+}
+
+.result p {
+    color: #ee0d60;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.result p span {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+
+/* ========================================
+   10. Level Badge
+======================================== */
+
+.level {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e1b6c5;
+    border-radius: 10000px;
+    background-color: #f8e8ee;
+    color: #8c4f65;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* ========================================
+   11. Score
+======================================== */
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.current_score {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.current_score span {
+    padding-right: 2px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.score_bar {
+    position: relative;
+    width: 80%;
+    height: 8px;
+    border-radius: 1000px;
+    background-color: #ddeaf3;
+}
+
+.correct_bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 8px;
+    border-radius: 1000px;
+    background-color: #17375f;
+}
+
+
+/* ========================================
+   12. Buttons
+======================================== */
+
+button#js-next {
+    margin-top: 22px;
+}
+
+
+@media (max-width : 1440px) {
+    .qa_grid {
+        grid-template-columns: 1fr;
+    }    
+
+    .side {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .score {
+        flex-direction: row;
+        padding: 5px 0;
+        gap: 20px;
+        border-radius: 0;
+        box-shadow: 2px -3px 7px #00000014;
+    }
+
+    .current_score {
+        padding: 6px 0 0;
+        font-size: 12px;
+    }
+
+    .current_score span {
+        font-size: 24px;
+    }
+}
+
+@media (max-width : 780px) {
+    body {
+        font-size: 14px;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .sound_switch {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sound_switch i {
+        font-size: 13px;
+    }
+
+    .choose_level {
+        width: 88%;
+    } 
+
+    .choose_level h2 {
+        font-size: 28px;
+    }
+
+    .level_flex .js-level {
+        margin-top: 8px;
+        padding: 8px 0 16px;
+    }    
+
+    .qa_container {
+        width: 93%;
+        margin: 69px 0;
+    }
+
+    main {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .level {
+        font-size: 10px;
+        width: 60px;
+        height: 30px;
+    }
+
+    .question_wrapper {
+        width: 92%;
+    }
+
+    .question_details {
+        width: 100%;
+        margin:  0 auto;
+    }
+
+    .question_details p {
+        line-height: 1.5rem;
+    }
+
+    #js-kana,
+    #js-romaji {
+        line-height: 1.2rem;
+    }
+
+    .answer,
+    .explanation {
+        width: 92%;
+    }
+
+    .explanation {
+        padding: 15px;
+    }
+
+    .score_bar {
+        width: 58%;
+        height: 6px;
+    }
+
+    .correct_bar {
+        height: 6px;
+    }
+
+    .current_score {
+        line-height: 1.3rem;
+    }
+}
