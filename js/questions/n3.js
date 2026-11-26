@@ -1,18 +1,5 @@
 export const n3Questions = [
     {
-        question: '雨が降っている（ ）、試合は予定どおり行われます。',
-        kana: 'あめがふっている（ ）、しあいはよていどおりおこなわれます。',
-        romaji: 'Ame ga futte iru ( ), shiai wa yotei doori okonawaremasu.',
-        options: [
-            'にもかかわらず/nimo kakawarazu',
-            'にしたがって/ni shitagatte',
-            'にとって/ni totte',
-            'に比べて/にくらべて/ni kurabete'
-        ],
-        correct: 'にもかかわらず/nimo kakawarazu',
-        explanation: '"にもかかわらず" means "despite" or "in spite of." It expresses a result that is unexpected given the preceding situation.'
-    },
-    {
         question: '彼は毎日練習した（ ）、試合に負けてしまった。',
         kana: 'かれはまいにちれんしゅうした（ ）、しあいにまけてしまった。',
         romaji: 'Kare wa mainichi renshuu shita ( ), shiai ni makete shimatta.',
@@ -58,7 +45,7 @@ export const n3Questions = [
         options: [
             'うえに/ue ni',
             'かわりに/kawari ni',
-            'くせに/kuse ni',
+            'ところが/kuse ni',
             'ものの/mono no'
         ],
         correct: 'うえに/ue ni',
@@ -96,7 +83,7 @@ export const n3Questions = [
         romaji: 'Nihon no bunka ( ) kyoumi ga arimasu.',
         options: [
             'について/ni tsuite',
-            'に対して/にたいして/ni taishite',
+            'にかかわらず/ni kakawarazu',
             'によって/ni yotte',
             'に比べて/にくらべて/ni kurabete'
         ],
@@ -135,7 +122,7 @@ export const n3Questions = [
         romaji: 'Nihon no jinkou wa, izen ( ) hette kite iru.',
         options: [
             'に比べて/にくらべて/ni kurabete',
-            'に対して/にたいして/ni taishite',
+            'にあるように/ni aruyouni',
             'にとって/ni totte',
             'に関して/にかんして/ni kanshite'
         ],
@@ -1207,19 +1194,6 @@ export const n3Questions = [
         ],
         correct: 'つもりだ/tsumori da',
         explanation: '"つもりだ" expresses a person\'s intention or plan.'
-    },
-    {
-        question: '来年、日本へ留学する（ ）。',
-        kana: 'らいねん、にほんへりゅうがくする（ ）。',
-        romaji: 'Rainen, Nihon e ryuugaku suru ( ).',
-        options: [
-            '予定だ/よていだ/yotei da',
-            'つもりだ/tsumori da',
-            'はずだ/hazu da',
-            'わけだ/wake da'
-        ],
-        correct: '予定だ/よていだ/yotei da',
-        explanation: '"予定だ" expresses a scheduled or planned event. It often refers to a concrete arrangement.'
     },
     {
         question: '空が暗くなってきた。雨が降り（ ）。',
@@ -3144,5 +3118,1292 @@ export const n3Questions = [
         ],
         correct: 'やすい/yasui',
         explanation: '"やすい" means "easy to do." The pen is light and easy to write with.'
+    },
+    {
+        question: '雨が降っている（  ）、試合は予定どおり行われます。',
+        kana: 'あめがふっている（  ）、しあいはよていどおりおこなわれます。',
+        romaji: 'Ame ga futte iru (  ), shiai wa yotei doori okonawaremasu.',
+        options: [
+        'にもかかわらず/nimo kakawarazu',
+        'にしたがって/ni shitagatte',
+        'にとって/ni totte',
+        'に比べて/にくらべて/ni kurabete'
+        ],
+        correct: 'にもかかわらず/nimo kakawarazu',
+        explanation: '"にもかかわらず" means "despite" or "in spite of." It expresses a result that is unexpected given the preceding situation.'
+    },
+    {
+        question: '年齢（  ）、体力が落ちてきたと感じる。',
+        kana: 'ねんれい（  ）、たいりょくがおちてきたとかんじる。',
+        romaji: 'Nenrei (  ), tairyoku ga ochite kita to kanjiru.',
+        options: [
+        'とともに/to tomo ni',
+        'おかげで/okage de',
+        'せいで/sei de',
+        'わりに/wari ni'
+        ],
+        correct: 'とともに/to tomo ni',
+        explanation: '"とともに" indicates a parallel change occurring alongside another progression ("along with age, physical strength declines").'
+    },
+    {
+        question: '先生のアドバイス（  ）、無事に試験に合格できた。',
+        kana: 'せんせいのあどばいす（  ）、ぶじにしけんにごうかくできた。',
+        romaji: 'Sensei no adobaisu (  ), buji ni shiken ni goukaku dekita.',
+        options: [
+        'のおかげで/no okage de',
+        'のせいで/no sei de',
+        'のわりに/no wari ni',
+        'のほかに/no hoka ni'
+        ],
+        correct: 'のおかげで/no okage de',
+        explanation: '"のおかげで" means "thanks to" and attributes a positive outcome to someone or something.'
+    },
+    {
+        question: '寝坊した（  ）、大切な会議に遅刻してしまった。',
+        kana: 'ねぼうした（  ）、たいせつなかいぎにちこくしてしまった。',
+        romaji: 'Nebou shita (  ), taisetsu na kaigi ni chikoku shite shimatta.',
+        options: [
+        'せいで/sei de',
+        'おかげで/okage de',
+        'とおりに/toori ni',
+        'うちに/uchi ni'
+        ],
+        correct: 'せいで/sei de',
+        explanation: '"せいで" means "because of / due to" and expresses blame or the cause of a negative result.'
+    },
+    {
+        question: 'このレストランは値段が安い（  ）、料理がとてもおいしい。',
+        kana: 'このれすとらんはねだんがやすい（  ）、りょうりがとてもおいしい。',
+        romaji: 'Kono resutoran wa nedan ga yasui (  ), ryouri ga totemo oishii.',
+        options: [
+        'わりに/wari ni',
+        'ために/tame ni',
+        'おかげで/okage de',
+        'せいで/sei de'
+        ],
+        correct: 'わりに/wari ni',
+        explanation: '"わりに" means "considering / for..." and contrasts an unexpected quality against a given standard (delicious despite being cheap).'
+    },
+    {
+        question: '冷めない（  ）、どうぞ温かいうちに召し上がってください。',
+        kana: 'さめない（  ）、どうぞあたたかいうちにめしあがってください。',
+        romaji: 'Samenai (  ), douzo atatakai uchi ni meshiagatte kudasai.',
+        options: [
+        'うちに/uchi ni',
+        'あいだに/aida ni',
+        'まえに/mae ni',
+        'あとで/ato de'
+        ],
+        correct: 'うちに/uchi ni',
+        explanation: '"〜ないうちに" means "before a change occurs" ("before it gets cold, please eat while it is warm").'
+    },
+    {
+        question: '日本にいる（  ）、一度は富士山に登ってみたい。',
+        kana: 'にほんにいる（  ）、いちどはふじさんにのぼってみたい。',
+        romaji: 'Nihon ni iru (  ), ichido wa Fujisan ni nobotte mitai.',
+        options: [
+        'うちに/uchi ni',
+        'せいで/sei de',
+        'おかげで/okage de',
+        'わりに/wari ni'
+        ],
+        correct: 'うちに/uchi ni',
+        explanation: '"うちに" indicates doing something while a current state or opportunity still lasts ("while I am in Japan").'
+    },
+    {
+        question: '説明書に書いてある（  ）組み立てたのに、うまく動かない。',
+        kana: 'せつめいしょにかいてある（  ）くみたてたのに、うまくうごかない。',
+        romaji: 'Setsumeisho ni kaite aru (  ) kumitateta noni, umaku ugokanai.',
+        options: [
+        'とおりに/toori ni',
+        'わりに/wari ni',
+        'おかげで/okage de',
+        'せいで/sei de'
+        ],
+        correct: 'とおりに/toori ni',
+        explanation: '"とおりに" means "just as / in accordance with" ("assembled it just as written in the manual").'
+    },
+    {
+        question: '台風の接近（  ）、午後の電車はすべて運休となった。',
+        kana: 'たいふうのせっきん（  ）、ごごのでんしゃはすべてうんきゅうとなった。',
+        romaji: 'Taifuu no sekkin (  ), gogo no densha wa subete unkyuu to natta.',
+        options: [
+        'にともなって/ni tomonatte',
+        'にくらべて/ni kurabete',
+        'にかわって/ni kawatte',
+        'にたいして/ni taishite'
+        ],
+        correct: 'にともなって/ni tomonatte',
+        explanation: '"にともなって" means "along with / as a result of" a major change or event (the approaching typhoon).'
+    },
+    {
+        question: '去年（  ）、今年の夏はずっと涼しい。',
+        kana: 'きょねん（  ）、ことしのなつはずっとすずしい。',
+        romaji: 'Kyonen (  ), kotoshi no natsu wa zutto suzushii.',
+        options: [
+        'に比べて/にくらべて/ni kurabete',
+        'に従って/にしたがって/ni shitagatte',
+        'に対して/にたいして/ni taishite',
+        'について/ni tsuite'
+        ],
+        correct: 'に比べて/にくらべて/ni kurabete',
+        explanation: '"に比べて" means "compared to" and contrasts two subjects ("compared to last year, this summer is much cooler").'
+    },
+    {
+        question: 'お客様（  ）丁寧な言葉遣いを心がけています。',
+        kana: 'おきゃくさま（  ）ていねいなことばづかいをこころがけています。',
+        romaji: 'Okyakusama (  ) teinei na kotobazukai o kokorogakete imasu.',
+        options: [
+        'に対して/にたいして/ni taishite',
+        'について/ni tsuite',
+        'によって/ni yotte',
+        'にとって/ni totte'
+        ],
+        correct: 'に対して/にたいして/ni taishite',
+        explanation: '"に対して" means "toward / directed at" someone ("polite language directed toward customers").'
+    },
+    {
+        question: '兄は活発な（  ）、弟はとてもおとなしい性格だ。',
+        kana: 'あにはかっぱつな（  ）、おとうとはとてもおとなしいせいかくだ。',
+        romaji: 'Ani wa kappatsu na (  ), otouto wa totemo otonashii seikaku da.',
+        options: [
+        '反面/はんめん/hanmen',
+        'おかげで/okage de',
+        'せいで/sei de',
+        'とおりに/toori ni'
+        ],
+        correct: '反面/はんめん/hanmen',
+        explanation: '"反面" means "on the other hand / while," contrasting two opposite traits or aspects.'
+    },
+    {
+        question: 'インターネットは便利な（  ）、使いすぎると時間を無駄にしてしまう。',
+        kana: 'いんたーねっとはべんりな（  ）、つかいすぎるとじかんをむだにしてしまう。',
+        romaji: 'Intaanetto wa benri na (  ), tsukaisugiru to jikan o muda ni shite shimau.',
+        options: [
+        '一方で/いっぽうで/ippou de',
+        'おかげで/okage de',
+        'せいで/sei de',
+        'うちに/uchi ni'
+        ],
+        correct: '一方で/いっぽうで/ippou de',
+        explanation: '"一方で" means "on the other hand" and introduces a contrasting point alongside an advantage.'
+    },
+    {
+        question: '入院中の部長（  ）、課長が会議に出席します。',
+        kana: 'にゅういんちゅうのぶちょう（  ）、かちょうがかいぎにしゅっせきします。',
+        romaji: 'Nyuuinchuu no buchou (  ), kachou ga kaigi ni shusseki shimasu.',
+        options: [
+        'に代わって/にかわって/ni kawatte',
+        'に比べて/にくらべて/ni kurabete',
+        'に従って/にしたがって/ni shitagatte',
+        'について/ni tsuite'
+        ],
+        correct: 'に代わって/にかわって/ni kawatte',
+        explanation: '"に代わって" means "in place of / on behalf of" someone ("the section chief will attend in place of the hospitalized department manager").'
+    },
+    {
+        question: 'この地域では、太陽の光（  ）電気を作っている。',
+        kana: 'このちいきでは、たいようのひかり（  ）でんきをつくっている。',
+        romaji: 'Kono chiiki de wa, taiyou no hikari (  ) denki o tsukutte iru.',
+        options: [
+        'によって/ni yotte',
+        'について/ni tsuite',
+        'にとって/ni totte',
+        'に対して/にたいして/ni taishite'
+        ],
+        correct: 'によって/ni yotte',
+        explanation: '"によって" indicates means or method ("generating electricity by means of sunlight").'
+    },
+    {
+        question: 'テストの結果（  ）、クラスが分かれます。',
+        kana: 'てすとのけっか（  ）、くらすがわかれます。',
+        romaji: 'Tesuto no kekka (  ), kurasu ga wakaremasu.',
+        options: [
+        'によって/ni yotte',
+        'について/ni tsuite',
+        'に対して/にたいして/ni taishite',
+        'おかげで/okage de'
+        ],
+        correct: 'によって/ni yotte',
+        explanation: '"によって" means "depending on" ("classes are divided depending on the test results").'
+    },
+    {
+        question: '参加者の人数（  ）、会場の広さを決めます。',
+        kana: 'さんかしゃのにんずう（  ）、かいじょうのひろさをきめます。',
+        romaji: 'Sankasha no ninzuu (  ), kaijou no hirosa o kimemasu.',
+        options: [
+        'に応じて/におうじて/ni oujite',
+        'に対して/にたいして/ni taishite',
+        'に比べて/にくらべて/ni kurabete',
+        'について/ni tsuite'
+        ],
+        correct: 'に応じて/におうじて/ni oujite',
+        explanation: '"に応じて" means "in accordance with / according to" variable conditions (number of participants).'
+    },
+    {
+        question: '駅に近づく（  ）、人が多くなってきた。',
+        kana: 'えきにちかづく（  ）、ひとがおおくなってきた。',
+        romaji: 'Eki ni chikazuku (  ), hito ga ooku natte kita.',
+        options: [
+        'につれて/ni tsurete',
+        'にかわって/ni kawatte',
+        'にくらべて/ni kurabete',
+        'について/ni tsuite'
+        ],
+        correct: 'につれて/ni tsurete',
+        explanation: '"につれて" expresses a proportionate, gradual change ("as one gets closer to the station, it gets more crowded").'
+    },
+    {
+        question: '先生の説明（  ）、ノートに大切な点をメモした。',
+        kana: 'せんせいのせつめい（  ）、のーとにたいせつなてんをめもした。',
+        romaji: 'Sensei no setsumei (  ), nooto ni taisetsu na ten o memo shita.',
+        options: [
+        'に従って/にしたがって/ni shitagatte',
+        'に比べて/にくらべて/ni kurabete',
+        'に代わって/にかわって/ni kawatte',
+        'に対して/にたいして/ni taishite'
+        ],
+        correct: 'に従って/にしたがって/ni shitagatte',
+        explanation: '"に従って" means "following / in accordance with" instructions or explanations.'
+    },
+    {
+        question: 'この小説は実際にあった出来事（  ）書かれている。',
+        kana: 'このしょうせつはじっさいにあったできごと（  ）かかれている。',
+        romaji: 'Kono shousetsu wa jissai ni atta dekigoto (  ) kakarete iru.',
+        options: [
+        'をもとに/o moto ni',
+        'を中心に/をちゅうしんに/o chuushin ni',
+        'をはじめ/o hajime',
+        'を通じて/をつうじて/o tsuujite'
+        ],
+        correct: 'をもとに/o moto ni',
+        explanation: '"をもとに" means "based on" source material or real events.'
+    },
+    {
+        question: '今回の会議では、新しいプロジェクト（  ）話し合われた。',
+        kana: 'こんかいのかいぎでは、あたらしいぷろじぇくと（  ）はなしあわれた。',
+        romaji: 'Konkai no kaigi de wa, atarashii purojekuto (  ) hanashiawareta.',
+        options: [
+        'を中心に/をちゅうしんに/o chuushin ni',
+        'をもとに/o moto ni',
+        'に比べて/にくらべて/ni kurabete',
+        'に代わって/にかわって/ni kawatte'
+        ],
+        correct: 'を中心に/をちゅうしんに/o chuushin ni',
+        explanation: '"を中心に" means "focusing on / centered around" a main topic.'
+    },
+    {
+        question: '日本には富士山（  ）、美しい山がたくさんある。',
+        kana: 'にほんにはふじさん（  ）、うつくしいやまがたくさんある。',
+        romaji: 'Nihon ni wa Fujisan (  ), utsukushii yama ga takusan aru.',
+        options: [
+        'をはじめ/o hajime',
+        'をもとに/o moto ni',
+        'を通じて/をつうじて/o tsuujite',
+        'に代わって/にかわって/ni kawatte'
+        ],
+        correct: 'をはじめ/o hajime',
+        explanation: '"をはじめ" means "starting with / such as" and introduces a primary representative example (Mt. Fuji).'
+    },
+    {
+        question: 'ボランティア活動（  ）、多くの人と知り合うことができた。',
+        kana: 'ぼらんてぃあかつどう（  ）、おおくのひととしりあうことができた。',
+        romaji: 'Borantia katsudou (  ), ooku no hito to shiriau koto ga dekita.',
+        options: [
+        'を通じて/をつうじて/o tsuujite',
+        'を中心に/をちゅうしんに/o chuushin ni',
+        'をもとに/o moto ni',
+        'に比べて/にくらべて/ni kurabete'
+        ],
+        correct: 'を通じて/をつうじて/o tsuujite',
+        explanation: '"を通じて" means "through / via" an experience or medium ("through volunteer activities").'
+    },
+    {
+        question: '来週のパーティーに出席する（  ）、今月中に連絡してください。',
+        kana: 'らいしゅうのぱーてぃーにしゅっせきする（  ）、こんげつちゅうにれんらくしてください。',
+        romaji: 'Raishuu no paatii ni shusseki suru (  ), kongetsuchuu ni renraku shite kudasai.',
+        options: [
+        'かどうか/ka dou ka',
+        'といっても/to ittemo',
+        'にしては/ni shite wa',
+        'どころか/dokoro ka'
+        ],
+        correct: 'かどうか/ka dou ka',
+        explanation: '"かどうか" means "whether or not" ("please let us know whether or not you will attend").'
+    },
+    {
+        question: '漢字が書ける（  ）、簡単なひらがなさえ間違えることがある。',
+        kana: 'かんじがかける（  ）、かんたんなひらがなさえまちがえることがある。',
+        romaji: 'Kanji ga kakeru (  ), kantan na hiragana sae machigaeru koto ga aru.',
+        options: [
+        'どころか/dokoro ka',
+        'おかげで/okage de',
+        'とおりに/toori ni',
+        'うちに/uchi ni'
+        ],
+        correct: 'どころか/dokoro ka',
+        explanation: '"どころか" means "far from..." and emphasizes an extreme contrast ("far from being able to write kanji, I even make mistakes on simple hiragana").'
+    },
+    {
+        question: '彼は日本に来てまだ半年（  ）、日本語がとても上手だ。',
+        kana: 'かれはにほんにきてまだはんとし（  ）、にほんごがとてもじょうずだ。',
+        romaji: 'Kare wa Nihon ni kite mada hantoshi (  ), nihongo ga totemo jouzu da.',
+        options: [
+        'にしては/ni shite wa',
+        'について/ni tsuite',
+        'によって/ni yotte',
+        'にとって/ni totte'
+        ],
+        correct: 'にしては/ni shite wa',
+        explanation: '"にしては" means "for / considering" and expresses surprise at something exceeding normal expectations (being fluent after only half a year).'
+    },
+    {
+        question: 'この仕事は経験がない人（  ）、少し難しいかもしれない。',
+        kana: 'このしごとはけいけんがないひと（  ）、すこしむずかしいかもしれない。',
+        romaji: 'Kono shigoto wa keiken ga nai hito (  ), sukoshi muzukashii kamoshirenai.',
+        options: [
+        'にとっては/ni totte wa',
+        'については/ni tsuite wa',
+        'によっては/ni yotte wa',
+        'にくらべては/ni kurabete wa'
+        ],
+        correct: 'にとっては/ni totte wa',
+        explanation: '"にとっては" means "for / from the standpoint of" ("for someone without experience, it may be a bit difficult").'
+    },
+    {
+        question: 'どんなに（  ）、あきらめずに最後まで頑張ります。',
+        kana: 'どんなに（  ）、あきらめずにさいごまでがんばります。',
+        romaji: 'Donna ni (  ), akiramezu ni saigo made ganbarimasu.',
+        options: [
+        '大変でも/たいへんでも/taihen demo',
+        '大変なら/たいへんなら/taihen nara',
+        '大変だと/たいへんだと/taihen da to',
+        '大変なので/たいへんなので/taihen na node'
+        ],
+        correct: '大変でも/たいへんでも/taihen demo',
+        explanation: '"どんなに + でも" means "no matter how..." ("no matter how hard it is, I will keep trying").'
+    },
+    {
+        question: '約束の時間に遅れた（  ）、連絡もしないのはよくない。',
+        kana: 'やくそくのじかんにおくれた（  ）、れんらくもしないのはよくない。',
+        romaji: 'Yakusoku no jikan ni okureta (  ), renraku mo shinai no wa yokunai.',
+        options: [
+        'うえに/ue ni',
+        'うちに/uchi ni',
+        'おかげで/okage de',
+        'とおりに/toori ni'
+        ],
+        correct: 'うえに/ue ni',
+        explanation: '"うえに" means "not only... but also / on top of that," adding a second negative fact.'
+    },
+    {
+        question: 'この部屋は広い（  ）、日当たりもよくて快適だ。',
+        kana: 'このへやはひろい（  ）、ひあたりもよくてかいてきだ。',
+        romaji: 'Kono heya wa hiroi (  ), hiatari mo yokute kaiteki da.',
+        options: [
+        'うえに/ue ni',
+        'せいで/sei de',
+        'わりに/wari ni',
+        'うちに/uchi ni'
+        ],
+        correct: 'うえに/ue ni',
+        explanation: '"うえに" stacks positive attributes ("in addition to being spacious, it also gets good sunlight").'
+    },
+    {
+        question: '彼は忙しい（  ）、週末は必ず家族と過ごしている。',
+        kana: 'かれはいそがしい（  ）、しゅうまつはかならずかぞくとすごしている。',
+        romaji: 'Kare wa isogashii (  ), shuumatsu wa kanarazu kazoku to sugoshite iru.',
+        options: [
+        'ながらも/nagara mo',
+        'おかげで/okage de',
+        'せいで/sei de',
+        'とおりに/toori ni'
+        ],
+        correct: 'ながらも/nagara mo',
+        explanation: '"ながらも" means "although / even while" ("although he is busy, he always spends weekends with his family").'
+    },
+    {
+        question: '料理ができた（  ）、ぜひ食べに来てください。',
+        kana: 'りょうりができた（  ）、ぜひたべにきてください。',
+        romaji: 'Ryouri ga dekita (  ), zehi tabe ni kite kudasai.',
+        options: [
+        'からには/kara ni wa',
+        'にしては/ni shite wa',
+        'わりに/wari ni',
+        'どころか/dokoro ka'
+        ],
+        correct: 'からには/kara ni wa',
+        explanation: '"からには" means "now that / since" and leads to a natural invitation or determination.'
+    },
+    {
+        question: '日本へ留学する（  ）、しっかり日本語を勉強したい。',
+        kana: 'にほんへりゅうがくする（  ）、しっかりにほんごをべんきょうしたい。',
+        romaji: 'Nihon e ryuugaku suru (  ), shikkari nihongo o benkyou shitai.',
+        options: [
+        'からには/kara ni wa',
+        'おかげで/okage de',
+        'せいで/sei de',
+        'うちに/uchi ni'
+        ],
+        correct: 'からには/kara ni wa',
+        explanation: '"からには" expresses strong resolve based on a decision ("now that I am going to study abroad in Japan, I want to study hard").'
+    },
+    {
+        question: 'もうすぐ試験が始まる（  ）、まだ準備ができていない。',
+        kana: 'もうすぐしけんがはじまる（  ）、まだじゅんびができていない。',
+        romaji: 'Mousugu shiken ga hajimaru (  ), mada junbi ga dekite inai.',
+        options: [
+        'というのに/to iu noni',
+        'おかげで/okage de',
+        'とおりに/toori ni',
+        'につれて/ni tsurete'
+        ],
+        correct: 'というのに/to iu noni',
+        explanation: '"というのに" emphasizes frustration or surprise ("even though the exam is about to start, I\'m still not ready").'
+    },
+    {
+        question: '彼女の歌はプロ（  ）上手だ。',
+        kana: 'かのじょのうたはぷろ（  ）じょうずだ。',
+        romaji: 'Kanojo no uta wa puro (  ) jouzu da.',
+        options: [
+        '並みに/なみに/nami ni',
+        '向けに/むけに/muke ni',
+        '代わりに/かわりに/kawari ni',
+        '中心に/ちゅうしんに/chuushin ni'
+        ],
+        correct: '並みに/なみに/nami ni',
+        explanation: '"並みに" means "on par with / just like" ("her singing is as good as a professional\'s").'
+    },
+    {
+        question: 'この本は外国人（  ）わかりやすく書かれている。',
+        kana: 'このほんはがいこくじん（  ）わかりやすくかかれている。',
+        romaji: 'Kono hon wa gaikokujin (  ) wakariyasuku kakarete iru.',
+        options: [
+        '向けに/むけに/muke ni',
+        '並みに/なみに/nami ni',
+        '代わりに/かわりに/kawari ni',
+        '通りに/とおりに/toori ni'
+        ],
+        correct: '向けに/むけに/muke ni',
+        explanation: '"向けに" means "intended for / aimed at" a specific target audience ("written specifically for foreigners").'
+    },
+    {
+        question: '砂糖を使う（  ）、はちみつを入れてもおいしいですよ。',
+        kana: 'さとうをつかう（  ）、はちみつをいれてもおいしいですよ。',
+        romaji: 'Satou o tsukau (  ), hachimitsu o irete mo oishii desu yo.',
+        options: [
+        '代わりに/かわりに/kawari ni',
+        'ために/tame ni',
+        'おかげで/okage de',
+        'せいで/sei de'
+        ],
+        correct: '代わりに/かわりに/kawari ni',
+        explanation: '"代わりに" means "instead of" ("instead of using sugar, adding honey is also delicious").'
+    },
+    {
+        question: '疲れているときは、無理をしないでゆっくり休む（  ）。',
+        kana: 'つかれているときは、むりをしないでゆっくりやすむ（  ）。',
+        romaji: 'Tsukarete iru toki wa, muri o shinai de yukkuri yasumu (  ).',
+        options: [
+        'ことだ/koto da',
+        'ものだ/mono da',
+        'はずだ/hazu da',
+        'つもりだ/tsumori da'
+        ],
+        correct: 'ことだ/koto da',
+        explanation: '"ことだ" is used to give advice or a recommendation ("when tired, the best thing to do is rest").'
+    },
+    {
+        question: 'お年寄りには親切にする（  ）。',
+        kana: 'おとしよりにはしんせつにする（  ）。',
+        romaji: 'Otoshiyori ni wa shinsetsu ni suru (  ).',
+        options: [
+        'ものだ/mono da',
+        'ことだ/koto da',
+        'ばかりだ/bakari da',
+        'ところだ/tokoro da'
+        ],
+        correct: 'ものだ/mono da',
+        explanation: '"ものだ" expresses a general moral norm or common sense ("one ought to be kind to the elderly").'
+    },
+    {
+        question: '子どものころは、よくこの川で泳いだ（  ）。',
+        kana: 'こどものころは、よくこのかわでおよいだ（  ）。',
+        romaji: 'Kodomo no koro wa, yoku kono kawa de oyoida (  ).',
+        options: [
+        'ものだ/mono da',
+        'ことだ/koto da',
+        'はずだ/hazu da',
+        'つもりだ/tsumori da'
+        ],
+        correct: 'ものだ/mono da',
+        explanation: 'Past plain form + "ものだ" expresses nostalgic recollection ("used to swim in this river often when I was a child").'
+    },
+    {
+        question: '時間が経つのは本当に早い（  ）。',
+        kana: 'じかんがたつのはほんとうにはやい（  ）。',
+        romaji: 'Jikan ga tatsu no wa hontou ni hayai (  ).',
+        options: [
+        'ものだ/mono da',
+        'ことだ/koto da',
+        'ばかりだ/bakari da',
+        'ところだ/tokoro da'
+        ],
+        correct: 'ものだ/mono da',
+        explanation: '"ものだ" expresses deep emotion or realization ("how fast time truly flies!").'
+    },
+    {
+        question: 'パソコンの調子が悪くて、急に画面が消える（  ）。',
+        kana: 'ぱそこんのちょうしがわるくて、きゅうにがめんがきえる（  ）。',
+        romaji: 'Pasokon no choushi ga warukute, kyuu ni gamen ga kieru (  ).',
+        options: [
+        'ことがある/koto ga aru',
+        'ものがある/mono ga aru',
+        'はずがある/hazu ga aru',
+        'わけがある/wake ga aru'
+        ],
+        correct: 'ことがある/koto ga aru',
+        explanation: 'Dictionary form + "ことがある" means "sometimes happens" ("sometimes the screen suddenly goes blank").'
+    },
+    {
+        question: 'どんなに練習しても、プロのように弾ける（  ）。',
+        kana: 'どんなにれんしゅうしても、ぷろのようにひける（  ）。',
+        romaji: 'Donna ni renshuu shite mo, puro no you ni hikeru (  ).',
+        options: [
+        'わけではない/wake de wa nai',
+        'ことではない/koto de wa nai',
+        'ものではない/mono de wa nai',
+        'つもりはない/tsumori wa nai'
+        ],
+        correct: 'わけではない/wake de wa nai',
+        explanation: '"わけではない" means "it does not necessarily mean that..." ("practicing doesn\'t mean I can play like a pro").'
+    },
+    {
+        question: '甘いものが嫌いな（  ）、ダイエット中なので食べていない。',
+        kana: 'あまいものがきらいな（  ）、だいえっとちゅうなのでたべていない。',
+        romaji: 'Amai mono ga kirai na (  ), daiettochuu na node tabete inai.',
+        options: [
+        'わけではないが/wake de wa nai ga',
+        'はずではないが/hazu de wa nai ga',
+        'つもりではないが/tsumori de wa nai ga',
+        'ばかりではないが/bakari de wa nai ga'
+        ],
+        correct: 'わけではないが/wake de wa nai ga',
+        explanation: '"わけではないが" clarifies a partial denial ("it\'s not that I dislike sweets, but I\'m not eating them because I\'m on a diet").'
+    },
+    {
+        question: 'あまりにも悲しくて、涙が止まらない（  ）。',
+        kana: 'あまりにもかなしくて、なみだがとまらない（  ）。',
+        romaji: 'Amari ni mo kanashikute, namida ga tomaranai (  ).',
+        options: [
+        'ほどだ/hodo da',
+        'わけだ/wake da',
+        'はずだ/hazu da',
+        'つもりだ/tsumori da'
+        ],
+        correct: 'ほどだ/hodo da',
+        explanation: '"ほどだ" expresses the extreme degree of a state ("so sad that my tears wouldn\'t stop").'
+    },
+    {
+        question: '今年の冬は去年（  ）寒くない。',
+        kana: 'ことしのふゆはきょねん（  ）さむくない。',
+        romaji: 'Kotoshi no fuyu wa kyonen (  ) samukunai.',
+        options: [
+        'ほど/hodo',
+        'より/yori',
+        'だけ/dake',
+        'ばかり/bakari'
+        ],
+        correct: 'ほど/hodo',
+        explanation: '"ほど + negative" means "not as... as" ("this winter is not as cold as last year").'
+    },
+    {
+        question: '彼は何でも知っている（  ）話す。',
+        kana: 'かれはなんでもしっている（  ）はなす。',
+        romaji: 'Kare wa nandemo shitte iru (  ) hanasu.',
+        options: [
+        'かのように/ka no you ni',
+        'かのようだ/ka no you da',
+        'らしい/rashii',
+        'そうだ/sou da'
+        ],
+        correct: 'かのように/ka no you ni',
+        explanation: '"かのように" means "as if" ("he talks as if he knows everything").'
+    },
+    {
+        question: '彼女はもうすぐ結婚する（  ）話を聞いた。',
+        kana: 'かのじょはもうすぐけっこんする（  ）はなしをきいた。',
+        romaji: 'Kanojo wa mousugu kekkon suru (  ) hanashi o kiita.',
+        options: [
+        'という/to iu',
+        'といった/to itta',
+        'といっても/to ittemo',
+        'というのは/to iu no wa'
+        ],
+        correct: 'という/to iu',
+        explanation: '"という" links a content clause to a noun like "話" ("heard the news that she is getting married soon").'
+    },
+    {
+        question: '「一期一会」（  ）、一生に一度の出会いを大切にするという意味だ。',
+        kana: '「いちごいちえ」（  ）、いっしょうにいちどのであいをたいせつにするといういみだ。',
+        romaji: '"Ichigo ichie" (  ), isshou ni ichido no deai o taisetsu ni suru to iu imi da.',
+        options: [
+        'というのは/to iu no wa',
+        'といっても/to ittemo',
+        'というより/to iu yori',
+        'といったら/to ittara'
+        ],
+        correct: 'というのは/to iu no wa',
+        explanation: '"というのは" introduces the definition or explanation of a term ("what \'ichigo ichie\' means is...").'
+    },
+    {
+        question: '料理ができる（  ）、目玉焼きが作れる程度です。',
+        kana: 'りょうりができる（  ）、めだまやきがつくれるていどです。',
+        romaji: 'Ryouri ga dekiru (  ), medamayaki ga tsukureru teido desu.',
+        options: [
+        'といっても/to ittemo',
+        'というのは/to iu no wa',
+        'というより/to iu yori',
+        'というのに/to iu noni'
+        ],
+        correct: 'といっても/to ittemo',
+        explanation: '"といっても" means "although I say..." and adds a modest qualification ("even though I say I can cook, it\'s only at the level of making fried eggs").'
+    },
+    {
+        question: '彼は友達（  ）、家族のような存在だ。',
+        kana: 'かれはともだち（  ）、かぞくのようなそんざいだ。',
+        romaji: 'Kare wa tomodachi (  ), kazoku no you na sonzai da.',
+        options: [
+        'というより/to iu yori',
+        'といっても/to ittemo',
+        'というのは/to iu no wa',
+        'というのに/to iu noni'
+        ],
+        correct: 'というより/to iu yori',
+        explanation: '"というより" means "rather than..." ("rather than a friend, he is more like family").'
+    },
+    {
+        question: '夏休みは海へ行く（  ）、山へ行くか迷っている。',
+        kana: 'なつやすみはうみへいく（  ）、やまへいくかまよっている。',
+        romaji: 'Natsuyasumi wa umi e iku (  ), yama e iku ka mayotte iru.',
+        options: [
+        'か/ka',
+        'と/to',
+        'や/ya',
+        'も/mo'
+        ],
+        correct: 'か/ka',
+        explanation: '"〜か〜か" presents alternatives in an embedded question ("trying to decide whether to go to the sea or the mountains").'
+    },
+    {
+        question: 'この問題が解ける人は、彼（  ）いないだろう。',
+        kana: 'このもんだいがとけるひとは、かれ（  ）いないだろう。',
+        romaji: 'Kono mondai ga tokeru hito wa, kare (  ) inai darou.',
+        options: [
+        'しか/shika',
+        'だけ/dake',
+        'ばかり/bakari',
+        'ほど/hodo'
+        ],
+        correct: 'しか/shika',
+        explanation: '"しか + negative" means "only / no one except" ("probably no one except him can solve this problem").'
+    },
+    {
+        question: '弟は毎日ゲーム（  ）して、全然勉強しない。',
+        kana: 'おとうとはまいにちげーむ（  ）して、ぜんぜんべんきょうしない。',
+        romaji: 'Otouto wa mainichi geemu (  ) shite, zenzen benkyou shinai.',
+        options: [
+        'ばかり/bakari',
+        'しか/shika',
+        'ほど/hodo',
+        'とおり/toori'
+        ],
+        correct: 'ばかり/bakari',
+        explanation: '"ばかり" means "nothing but / always doing" with a critical nuance ("plays nothing but video games every day").'
+    },
+    {
+        question: '最近、仕事が忙しくて、睡眠時間が減る（  ）。',
+        kana: 'さいきん、しごとがいそがしくて、すいみんじかんがへる（  ）。',
+        romaji: 'Saikin, shigoto ga isogashikute, suimin jikan ga heru (  ).',
+        options: [
+        '一方だ/いっぽうだ/ippou da',
+        'ばかりだ/bakari da',
+        'ところだ/tokoro da',
+        'はずだ/hazu da'
+        ],
+        correct: '一方だ/いっぽうだ/ippou da',
+        explanation: '"一方だ" indicates a continuous one-way trend ("sleep time keeps on decreasing").'
+    },
+    {
+        question: '忘れ物をしない（  ）、前日の夜に準備をしておく。',
+        kana: 'わすれものをしない（  ）、ぜんじつのよるにじゅんびをしておく。',
+        romaji: 'Wasuremono o shinai (  ), zenjitsu no yoru ni junbi o shite oku.',
+        options: [
+        'ように/you ni',
+        'ために/tame ni',
+        'そうに/sou ni',
+        'だけに/dake ni'
+        ],
+        correct: 'ように/you ni',
+        explanation: '"〜ないように" expresses the purpose of preventing an unwanted outcome ("so as not to forget anything").'
+    },
+    {
+        question: '東京へ行く（  ）、新幹線のチケットを予約した。',
+        kana: 'とうきょうへいく（  ）、しんかんせんのちけっとをよやくした。',
+        romaji: 'Toukyou e iku (  ), shinkansen no chiketto o yoyaku shita.',
+        options: [
+        'ために/tame ni',
+        'ように/you ni',
+        'うちに/uchi ni',
+        'わりに/wari ni'
+        ],
+        correct: 'ために/tame ni',
+        explanation: 'Volitional action + "ために" expresses direct purpose ("in order to go to Tokyo, I reserved a Shinkansen ticket").'
+    },
+    {
+        question: '道が混んでいた（  ）、約束の時間に遅れてしまった。',
+        kana: 'みちがこんでいた（  ）、やくそくのじかんにおくれてしまった。',
+        romaji: 'Michi ga konde ita (  ), yakusoku no jikan ni okurete shimatta.',
+        options: [
+        'ために/tame ni',
+        'ように/you ni',
+        'おかげで/okage de',
+        'わりに/wari ni'
+        ],
+        correct: 'ために/tame ni',
+        explanation: '"ために" also states a formal or objective cause/reason ("because the road was congested").'
+    },
+    {
+        question: '風邪をひかない（  ）、手洗いとうがいをしっかりしましょう。',
+        kana: 'かぜをひかない（  ）、てあらいとうがいをしっかりしましょう。',
+        romaji: 'Kaze o hikanai (  ), tearai to ugai o shikkari shimashou.',
+        options: [
+        'ように/you ni',
+        'ために/tame ni',
+        'せいで/sei de',
+        'おかげで/okage de'
+        ],
+        correct: 'ように/you ni',
+        explanation: 'Non-volitional negative ("風邪をひかない") + "ように" states a preventive goal ("so that we don\'t catch a cold").'
+    },
+    {
+        question: '雨（  ）降らなければ、予定どおり出発します。',
+        kana: 'あめ（  ）ふらなければ、よていどおりしゅっぱつします。',
+        romaji: 'Ame (  ) furanakereba, yotei doori shuppatsu shimasu.',
+        options: [
+        'さえ/sae',
+        'こそ/koso',
+        'ばかり/bakari',
+        'ほど/hodo'
+        ],
+        correct: 'さえ/sae',
+        explanation: '"さえ〜ば" means "if only..." ("if only it doesn\'t rain, we will depart as scheduled").'
+    },
+    {
+        question: '今度（  ）、絶対に試合に勝ちたい。',
+        kana: 'こんど（  ）、ぜったいにしあいにかちたい。',
+        romaji: 'Kondo (  ), zettai ni shiai ni kachitai.',
+        options: [
+        'こそ/koso',
+        'さえ/sae',
+        'ばかり/bakari',
+        'しか/shika'
+        ],
+        correct: 'こそ/koso',
+        explanation: '"こそ" adds strong emphasis ("this time for sure, I definitely want to win the match").'
+    },
+    {
+        question: '彼女が怒るのも無理はない。誰だって同じ立場ならそうする（  ）。',
+        kana: 'かのじょがおこるのもむりはない。だれだっておなじたちばならそうする（  ）。',
+        romaji: 'Kanojo ga okoru no mo muri wa nai. Dare datte onaji tachiba nara sou suru (  ).',
+        options: [
+        'だろう/darou',
+        'らしい/rashii',
+        'そうだ/sou da',
+        'ばかりだ/bakari da'
+        ],
+        correct: 'だろう/darou',
+        explanation: '"だろう" expresses strong conjecture ("anyone in the same position would probably do the same").'
+    },
+    {
+        question: '天気予報によると、明日は午後から雪になる（  ）。',
+        kana: 'てんきよほうによると、あしたはごごからゆきになる（  ）。',
+        romaji: 'Tenkiyohou ni yoru to, ashita wa gogo kara yuki ni naru (  ).',
+        options: [
+        'らしい/rashii',
+        'そうだ/sou da',
+        'ようだ/you da',
+        'はずだ/hazu da'
+        ],
+        correct: 'らしい/rashii',
+        explanation: '"らしい" expresses information heard or inferred from a reliable source like the weather forecast.'
+    },
+    {
+        question: '玄関のチャイムが鳴った。宅配便が来た（  ）。',
+        kana: 'げんかんのちゃいむがなった。たくはいびんがきた（  ）。',
+        romaji: 'Genkan no chaimu ga natta. Takuhaibin ga kita (  ).',
+        options: [
+        'ようだ/you da',
+        'そうだ/sou da',
+        'つもりだ/tsumori da',
+        'ばかりだ/bakari da'
+        ],
+        correct: 'ようだ/you da',
+        explanation: '"ようだ" expresses a judgment based on direct sensory evidence (hearing the doorbell ring).'
+    },
+    {
+        question: 'この問題については、もう一度よく考える（  ）。',
+        kana: 'このもんだいについては、もういちどよくかんがえる（  ）。',
+        romaji: 'Kono mondai ni tsuite wa, mou ichido yoku kangaeru (  ).',
+        options: [
+        '必要がある/ひつようがある/hitsuyou ga aru',
+        'おかげがある/okage ga aru',
+        'せいがある/sei ga aru',
+        'わりがある/wari ga aru'
+        ],
+        correct: '必要がある/ひつようがある/hitsuyou ga aru',
+        explanation: '"必要がある" means "there is a need to / it is necessary to" ("it is necessary to think carefully about this issue again").'
+    },
+    {
+        question: '急ぐ（  ）、ゆっくり歩いていきましょう。まだ時間は十分あります。',
+        kana: 'いそぐ（  ）、ゆっくりあるいていきましょう。まだじかんはじゅうぶんあります。',
+        romaji: 'Isogu (  ), yukkuri aruite ikimashou. Mada jikan wa juubun arimasu.',
+        options: [
+        'ことはない/koto wa nai',
+        'はずはない/hazu wa nai',
+        'わけではない/wake de wa nai',
+        'ものではない/mono de wa nai'
+        ],
+        correct: 'ことはない/koto wa nai',
+        explanation: '"ことはない" means "there is no need to" ("there\'s no need to hurry, let\'s walk slowly").'
+    },
+    {
+        question: '会議の資料をコピーして（  ）ので、いつでも始められます。',
+        kana: 'かいぎのしりょうをこぴーして（  ）ので、いつでもはじめられます。',
+        romaji: 'Kaigi no shiryou o kopii shite (  ) node, itsudemo hajimeraremasu.',
+        options: [
+        'ある/aru',
+        'いる/iru',
+        'みる/miru',
+        'しまう/shimau'
+        ],
+        correct: 'ある/aru',
+        explanation: 'Transitive て-form + "ある" shows that preparation has been completed in advance ("the handouts have been copied").'
+    },
+    {
+        question: '引っ越しの荷物を全部箱に詰めて（  ）。',
+        kana: 'ひっこしのにもつをぜんぶはこにつめて（  ）。',
+        romaji: 'Hikkoshi no nimotsu o zenbu hako ni tsumete (  ).',
+        options: [
+        'おいた/oita',
+        'みた/mita',
+        'あった/atta',
+        'きた/kita'
+        ],
+        correct: 'おいた/oita',
+        explanation: '"ておく" expresses doing something beforehand to get ready ("packed all the moving boxes in advance").'
+    },
+    {
+        question: '新しい靴を履いて（  ）、少しサイズが小さかった。',
+        kana: 'あたらしいくつをはいて（  ）、すこしさいずがちいさかった。',
+        romaji: 'Atarashii kutsu o haite (  ), sukoshi saizu ga chiisakatta.',
+        options: [
+        'みたら/mitara',
+        'おいたら/oitara',
+        'しまったら/shimattara',
+        'あったら/attara'
+        ],
+        correct: 'みたら/mitara',
+        explanation: '"てみたら" means "when I tried doing X, I discovered..." ("when I tried putting on the new shoes, they were a bit small").'
+    },
+    {
+        question: '大切な書類を間違えて捨てて（  ）。',
+        kana: 'たいせつなしょるいをまちがえてすてて（  ）。',
+        romaji: 'Taisetsu na shorui o machigaete sutete (  ).',
+        options: [
+        'しまった/shimatta',
+        'おいた/oita',
+        'みた/mita',
+        'あった/atta'
+        ],
+        correct: 'しまった/shimatta',
+        explanation: '"てしまった" expresses regret over an accidental mistake ("accidentally threw away important documents").'
+    },
+    {
+        question: '最近、地球温暖化がどんどん進んで（  ）。',
+        kana: 'さいきん、ちきゅうおんだんかがどんどんすすんで（  ）。',
+        romaji: 'Saikin, chikyuu ondanka ga dondon susunde (  ).',
+        options: [
+        'いる/iru',
+        'ある/aru',
+        'おく/oku',
+        'みる/miru'
+        ],
+        correct: 'いる/iru',
+        explanation: '"〜ている" describes an ongoing process of change ("global warming is steadily progressing").'
+    },
+    {
+        question: 'この町は昔（  ）、ずっとにぎやかになった。',
+        kana: 'このまちはむかし（  ）、ずっとにぎやかになった。',
+        romaji: 'Kono machi wa mukashi (  ), zutto nigiyaka ni natta.',
+        options: [
+        'に比べて/にくらべて/ni kurabete',
+        'に従って/にしたがって/ni shitagatte',
+        'について/ni tsuite',
+        'によって/ni yotte'
+        ],
+        correct: 'に比べて/にくらべて/ni kurabete',
+        explanation: '"に比べて" compares the past and present ("compared to the past, this town has become much livelier").'
+    },
+    {
+        question: '食事の（  ）、テレビを見るのは行儀が悪いと言われた。',
+        kana: 'しょくじの（  ）、てれびをみるのはぎょうぎがわるいといわれた。',
+        romaji: 'Shokuji no (  ), terebi o miru no wa gyougi ga warui to iwareta.',
+        options: [
+        '最中に/さいちゅうに/saichuu ni',
+        '代わりに/かわりに/kawari ni',
+        'おかげで/okage de',
+        'せいで/sei de'
+        ],
+        correct: '最中に/さいちゅうに/saichuu ni',
+        explanation: '"最中に" means "right in the middle of" an activity ("watching TV right in the middle of a meal").'
+    },
+    {
+        question: '出張の（  ）、京都の古いお寺を見学した。',
+        kana: 'しゅっちょうの（  ）、きょうとのふるいおてらをけんがくした。',
+        romaji: 'Shucchou no (  ), Kyouto no furui otera o kengaku shita.',
+        options: [
+        'ついでに/tsuide ni',
+        '代わりに/かわりに/kawari ni',
+        'おかげで/okage de',
+        'せいで/sei de'
+        ],
+        correct: 'ついでに/tsuide ni',
+        explanation: '"ついでに" means "while one is at it / taking the opportunity of" ("while on a business trip, I visited old temples in Kyoto").'
+    },
+    {
+        question: 'スーパーへ行く（  ）、郵便局で手紙を出してきてくれませんか。',
+        kana: 'すーぱーへいく（  ）、ゆうびんきょくでてがみをだしてきてくれませんか。',
+        romaji: 'Suupaa e iku (  ), yuubinkyoku de tegami o dashite kite kuremasen ka.',
+        options: [
+        'ついでに/tsuide ni',
+        'わりに/wari ni',
+        'せいで/sei de',
+        'おかげで/okage de'
+        ],
+        correct: 'ついでに/tsuide ni',
+        explanation: '"ついでに" asks someone to do an extra errand on the way to their main destination ("while going to the supermarket...").'
+    },
+    {
+        question: '彼は約束を破った（  ）、謝ろうともしない。',
+        kana: 'かれはやぶった（  ）、あやまろうともしない。',
+        romaji: 'Kare wa yakusoku o yabutta (  ), ayamarou to mo shinai.',
+        options: [
+        'ばかりか/bakari ka',
+        'おかげで/okage de',
+        'とおりに/toori ni',
+        'うちに/uchi ni'
+        ],
+        correct: 'ばかりか/bakari ka',
+        explanation: '"ばかりか" means "not only... but even..." ("not only did he break his promise, he won\'t even apologize").'
+    },
+    {
+        question: 'この地域では、冬になると雪が降る（  ）、風も非常に強い。',
+        kana: 'このちいきでは、ふゆになるとゆきがふる（  ）、かぜもひじょうにつよい。',
+        romaji: 'Kono chiiki de wa, fuyu ni naru to yuki ga furu (  ), kaze mo hijou ni tsuyoi.',
+        options: [
+        'だけでなく/dake de naku',
+        'おかげで/okage de',
+        'せいで/sei de',
+        'わりに/wari ni'
+        ],
+        correct: 'だけでなく/dake de naku',
+        explanation: '"だけでなく...も" adds another characteristic ("not only does it snow in winter, the wind is also extremely strong").'
+    },
+    {
+        question: '医者に止められている（  ）、父はお酒をやめようとしない。',
+        kana: 'いしゃにとめられている（  ）、ちちはおさけをやめようとしない。',
+        romaji: 'Isha ni tomerarete iru (  ), chichi wa osake o yameyou to shinai.',
+        options: [
+        'にもかかわらず/nimo kakawarazu',
+        'にしたがって/ni shitagatte',
+        'おかげで/okage de',
+        'とおりに/toori ni'
+        ],
+        correct: 'にもかかわらず/nimo kakawarazu',
+        explanation: '"にもかかわらず" means "despite" ("despite being told by the doctor to stop, my father won\'t quit drinking").'
+    },
+    {
+        question: '天気がいい（  ）、風が強くて洗濯物が飛ばされそうだ。',
+        kana: 'てんきがいい（  ）、かぜがつよくてせんたくものがとばされそうだ。',
+        romaji: 'Tenki ga ii (  ), kaze ga tsuyokute sentakumono ga tobasaresou da.',
+        options: [
+        'ものの/mono no',
+        'おかげで/okage de',
+        'せいで/sei de',
+        'とおりに/toori ni'
+        ],
+        correct: 'ものの/mono no',
+        explanation: '"ものの" means "although / even though" ("although the weather is nice, the wind is strong").'
+    },
+    {
+        question: '新しいパソコンを買った（  ）、使い方がよくわからない。',
+        kana: 'あたらしいぱそこんをかった（  ）、つかいかたがよくわからない。',
+        romaji: 'Atarashii pasokon o katta (  ), tsukaikata ga yoku wakaranai.',
+        options: [
+        'ものの/mono no',
+        'おかげで/okage de',
+        'とおりに/toori ni',
+        'につれて/ni tsurete'
+        ],
+        correct: 'ものの/mono no',
+        explanation: '"ものの" introduces a concession ("although I bought a new PC, I don\'t really know how to use it").'
+    },
+    {
+        question: '春とは（  ）、まだ朝晩は冷え込む日が多い。',
+        kana: 'はるとは（  ）、まだあさばんはひえこむひがおおい。',
+        romaji: 'Haru to wa (  ), mada asaban wa hiekomu hi ga ooi.',
+        options: [
+        'いうものの/iu mono no',
+        'いうとおりに/iu toori ni',
+        'いうおかげで/iu okage de',
+        'いうせいで/iu sei de'
+        ],
+        correct: 'いうものの/iu mono no',
+        explanation: '"とはいうものの" means "even though it is called/said to be..." ("even though it\'s spring, mornings and evenings are still chilly").'
+    },
+    {
+        question: '彼はまだ子ども（  ）、大人顔負けの知識を持っている。',
+        kana: 'かれはまだこども（  ）、おとなかおまけのちしきをもっている。',
+        romaji: 'Kare wa mada kodomo (  ), otona kaomake no chishiki o motte iru.',
+        options: [
+        'でありながら/de ari nagara',
+        'のおかげで/no okage de',
+        'のせいで/no sei de',
+        'のとおりに/no toori ni'
+        ],
+        correct: 'でありながら/de ari nagara',
+        explanation: '"でありながら" means "even though / while being" ("even though he is still a child, he has knowledge that puts adults to shame").'
+    },
+    {
+        question: '日本のアニメは子ども（  ）、大人にも人気がある。',
+        kana: 'にほんのあにめはこども（  ）、おとなにもにんきがある。',
+        romaji: 'Nihon no anime wa kodomo (  ), otona ni mo ninki ga aru.',
+        options: [
+        'に限らず/にかぎらず/ni kagirazu',
+        'に比べて/にくらべて/ni kurabete',
+        'に従って/にしたがって/ni shitagatte',
+        'に代わって/にかわって/ni kawatte'
+        ],
+        correct: 'に限らず/にかぎらず/ni kagirazu',
+        explanation: '"に限らず" means "not limited to / not only" ("popular not only among children, but also among adults").'
+    },
+    {
+        question: 'この公園は季節（  ）、いつでも美しい花が楽しめる。',
+        kana: 'このこうえんはきせつ（  ）、いつでもうつくしいはながたのしめる。',
+        romaji: 'Kono kouen wa kisetsu (  ), itsudemo utsukushii hana ga tanoshimeru.',
+        options: [
+        'を問わず/をとわず/o towazu',
+        'をもとに/o moto ni',
+        'を中心に/をちゅうしんに/o chuushin ni',
+        'を通じて/をつうじて/o tsuujite'
+        ],
+        correct: 'を問わず/をとわず/o towazu',
+        explanation: '"を問わず" means "regardless of" ("regardless of the season, you can enjoy beautiful flowers anytime").'
+    },
+    {
+        question: '年齢や性別（  ）、誰でもこのイベントに参加できます。',
+        kana: 'ねんれいやせいべつ（  ）、だれでもこのいべんとにさんかできます。',
+        romaji: 'Nenrei ya seibetsu (  ), dare demo kono ibento ni sanka dekimasu.',
+        options: [
+        'に関係なく/にかんけいなく/ni kankei naku',
+        'に比べて/にくらべて/ni kurabete',
+        'に従って/にしたがって/ni shitagatte',
+        'に代わって/にかわって/ni kawatte'
+        ],
+        correct: 'に関係なく/にかんけいなく/ni kankei naku',
+        explanation: '"に関係なく" means "regardless of / irrespective of" age or gender.'
+    },
+    {
+        question: '仕事が忙しくて、昼ごはんを食べる時間（  ）なかった。',
+        kana: 'しごとがいそがしくて、ひるごはんをたべるじかん（  ）なかった。',
+        romaji: 'Shigoto ga isogashikute, hirugohan o taberu jikan (  ) nakatta.',
+        options: [
+        'さえ/sae',
+        'こそ/koso',
+        'ばかり/bakari',
+        'ほど/hodo'
+        ],
+        correct: 'さえ/sae',
+        explanation: '"さえ" means "even" ("I was so busy with work that I didn\'t even have time to eat lunch").'
+    },
+    {
+        question: '彼は自分の名前（  ）漢字で書けない。',
+        kana: 'かれはじぶんのなまえ（  ）かんじでかけない。',
+        romaji: 'Kare wa jibun no namae (  ) kanji de kakenai.',
+        options: [
+        'すら/sura',
+        'こそ/koso',
+        'だけ/dake',
+        'ばかり/bakari'
+        ],
+        correct: 'すら/sura',
+        explanation: '"すら" means "even" (an emphatic form of さえ), showing an extreme example ("he can\'t even write his own name in kanji").'
+    },
+    {
+        question: '先生（  ）おっしゃったとおりにやってみた。',
+        kana: 'せんせい（  ）おっしゃったとおりにやってみた。',
+        romaji: 'Sensei (  ) osshatta toori ni yatte mita.',
+        options: [
+        'の/no',
+        'を/o',
+        'に/ni',
+        'で/de'
+        ],
+        correct: 'の/no',
+        explanation: 'In relative clauses, "の" can replace "が" to mark the subject ("先生のおっしゃったとおりに" = just as the teacher said).'
+    },
+    {
+        question: 'この映画は見る人（  ）、感想が大きく異なるだろう。',
+        kana: 'このえいがはみるひと（  ）、かんそうがおおきくことなるだろう。',
+        romaji: 'Kono eiga wa miru hito (  ), kansou ga ookiku kotonaru darou.',
+        options: [
+        'によって/ni yotte',
+        'について/ni tsuite',
+        'にとって/ni totte',
+        'に対して/にたいして/ni taishite'
+        ],
+        correct: 'によって/ni yotte',
+        explanation: '"によって" means "depending on" ("impressions will differ greatly depending on the viewer").'
+    },
+    {
+        question: '計画（  ）、来月から新しい工場の建設が始まる。',
+        kana: 'けいかく（  ）、らいげつからあたらしいこうじょうのけんせつがはじまる。',
+        romaji: 'Keikaku (  ), raigetsu kara atarashii koujou no kensetsu ga hajimaru.',
+        options: [
+        'によると/ni yoru to',
+        'について/ni tsuite',
+        'にとって/ni totte',
+        'に対して/にたいして/ni taishite'
+        ],
+        correct: 'によると/ni yoru to',
+        explanation: '"によると" means "according to" a plan, report, or source ("according to the plan...").'
+    },
+    {
+        question: '日本へ来てから、もう三年（  ）経った。',
+        kana: 'にほんへきてから、もうさんねん（  ）たった。',
+        romaji: 'Nihon e kite kara, mou sannen (  ) tatta.',
+        options: [
+        'も/mo',
+        'しか/shika',
+        'さえ/sae',
+        'こそ/koso'
+        ],
+        correct: 'も/mo',
+        explanation: 'Quantity + "も" emphasizes a large amount or long duration ("three whole years have already passed!").'
+    },
+    {
+        question: '財布の中に千円（  ）入っていない。',
+        kana: 'さいふのなかにせんえん（  ）はいっていない。',
+        romaji: 'Saifu no naka ni sen\'en (  ) haitte inai.',
+        options: [
+        'しか/shika',
+        'も/mo',
+        'こそ/koso',
+        'ほど/hodo'
+        ],
+        correct: 'しか/shika',
+        explanation: '"しか + negative" emphasizes a small quantity ("there is only 1,000 yen in my wallet").'
+    },
+    {
+        question: '急いでいた（  ）、財布を家に忘れてきてしまった。',
+        kana: 'いそいでいた（  ）、さいふをいえにわすれてきてしまった。',
+        romaji: 'Isoide ita (  ), saifu o ie ni wasurete kite shimatta.',
+        options: [
+        'あまり/amari',
+        'わりに/wari ni',
+        'おかげで/okage de',
+        'とおりに/toori ni'
+        ],
+        correct: 'あまり/amari',
+        explanation: '"あまり" means "because of being too / excessively..." leading to an unintended result ("because I was in too much of a hurry...").'
+    },
+    {
+        question: '合格の知らせを聞いて、うれしさの（  ）涙が出た。',
+        kana: 'ごうかくのしらせをきいて、うれしさの（  ）なみだがでた。',
+        romaji: 'Goukaku no shirase o kiite, ureshisa no (  ) namida ga deta.',
+        options: [
+        'あまり/amari',
+        'おかげで/okage de',
+        'せいで/sei de',
+        'わりに/wari ni'
+        ],
+        correct: 'あまり/amari',
+        explanation: 'Noun + "のあまり" means "out of extreme..." ("tears came out out of sheer joy").'
+    },
+    {
+        question: '昨日の夜、遅くまで起きていた（  ）、今日はとても眠い。',
+        kana: 'きのうのよる、おそくまでおきていた（  ）、きょうはとてもねむい。',
+        romaji: 'Kinou no yoru, osoku made okite ita (  ), kyou wa totemo nemui.',
+        options: [
+        'せいか/sei ka',
+        'おかげか/okage ka',
+        'わりか/wari ka',
+        'ばかりか/bakari ka'
+        ],
+        correct: 'せいか/sei ka',
+        explanation: '"せいか" means "perhaps because" when guessing the cause of an undesirable condition ("perhaps because I stayed up late last night, I\'m very sleepy today").'
+    },
+    {
+        question: '毎日運動している（  ）、最近体調がとてもいい。',
+        kana: 'まいにちうんどうしている（  ）、さいきんたいちょうがとてもいい。',
+        romaji: 'Mainichi undou shite iru (  ), saikin taichou ga totemo ii.',
+        options: [
+        'おかげか/okage ka',
+        'せいか/sei ka',
+        'わりか/wari ka',
+        'ばかりか/bakari ka'
+        ],
+        correct: 'おかげか/okage ka',
+        explanation: '"おかげか" means "perhaps thanks to" when attributing a positive state to a likely cause.'
+    },
+    {
+        question: '彼は医者（  ）、薬を飲むのが大嫌いだそうだ。',
+        kana: 'かれはいしゃ（  ）、くすりをのむのがだいきらいだそうだ。',
+        romaji: 'Kare wa isha (  ), kusuri o nomu no ga daikirai da sou da.',
+        options: [
+        'なのに/na noni',
+        'なので/na node',
+        'なら/nara',
+        'だから/da kara'
+        ],
+        correct: 'なのに/na noni',
+        explanation: 'Noun + "なのに" means "even though he is..." ("even though he is a doctor, he hates taking medicine").'
+    },
+    {
+        question: 'この問題は簡単そうに見えて、（  ）難しい。',
+        kana: 'このもんだいはかんたんそうにみえて、（  ）むずかしい。',
+        romaji: 'Kono mondai wa kantan sou ni miete, (  ) muzukashii.',
+        options: [
+        '意外と/いがいと/igai to',
+        '必ず/かならず/kanarazu',
+        '絶対に/ぜったいに/zettai ni',
+        'きっと/kitto'
+        ],
+        correct: '意外と/いがいと/igai to',
+        explanation: '"意外と" means "unexpectedly / surprisingly" ("looks easy, yet is surprisingly difficult").'
+    },
+    {
+        question: '時間が足りなかったので、問題を（  ）解くことができなかった。',
+        kana: 'じかんがたりなかったので、もんだいを（  ）とくことができなかった。',
+        romaji: 'Jikan ga tarinakatta node, mondai o (  ) toku koto ga dekinakatta.',
+        options: [
+        'すべて/subete',
+        'ほとんど/hotondo',
+        'だいたい/daitai',
+        '少し/すこし/sukoshi'
+        ],
+        correct: 'すべて/subete',
+        explanation: '"すべて" means "all / every single one" ("because there wasn\'t enough time, I couldn\'t solve all the problems").'
     }
 ];
